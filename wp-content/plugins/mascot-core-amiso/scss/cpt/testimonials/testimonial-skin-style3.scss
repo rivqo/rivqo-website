@@ -1,0 +1,66 @@
+@import "../../bootstrap-loader";
+@import "testimonial-common";
+
+.testimonial-skin-style3 {
+  background: #fafafa;
+  padding: 70px 50px 40px 50px;
+  margin-top: 60px;
+  position: relative;
+  text-align: center;
+  border: 5px solid #f1f1f1;
+  border-radius: 5px;
+  @include transition(all 300ms ease-in-out 0s);
+  @include media-breakpoint-down(md) {
+    padding: 70px 30px 30px 30px;
+  }
+  .author-thumb {
+    img {
+      border-radius: 50%;
+      position: absolute;
+      top: -60px;
+      text-align: center;
+      left: 0;
+      border: 5px solid var(--theme-color1);
+      right: 0;
+      margin: 0 auto;
+      max-width: 100px;
+      @include transition(all 400ms ease-in-out 0s);
+    }
+  }
+  .author-text {
+    margin-bottom: 30px;
+    color: #092755;
+  }
+  .star-rating {
+    margin: 0 auto;
+  }
+  .author-info {
+    @include media-breakpoint-down(md) {
+      margin-bottom: 30px;
+    }
+    .name {
+      color: var(--theme-color1);
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+    .job-position,
+    .company-url {
+      color: var(--text-color);
+      font-size: 16px;
+      margin: 0;
+    }
+    .company-url {
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+  &:hover {
+    border-color: #092755;
+    .author-thumb {
+      img {
+        border-color: #092755;
+      }
+    }
+  }
+}

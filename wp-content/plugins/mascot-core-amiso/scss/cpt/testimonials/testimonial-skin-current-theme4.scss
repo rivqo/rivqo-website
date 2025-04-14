@@ -1,0 +1,82 @@
+// Testimonial Block Four
+.testimonial-block-four {
+  position: relative;
+  .inner-box {
+    position: relative;
+  }
+  .thumb {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+    img {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+    }
+    .icon {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30px;
+      width: 30px;
+      background-color: var(--theme-color1);
+      border-radius: 50%;
+      color: #fff;
+      font-size: 12px;
+    }
+  }
+
+  .author-text {
+    font-size: 26px;
+    line-height: 40px;
+    color: #6a6a6a;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .name {
+    display: inline;
+    margin-bottom: 0px;
+  }
+
+  .job-position {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--theme-color1);
+    font-weight: 500;
+    margin-left: 25px;
+    &:before {
+      position: absolute;
+      left: -15px;
+      top: 0;
+      content: "-";
+      color: var(--theme-color1);
+    }
+  }
+
+  .icon-quote {
+    position: absolute;
+    right: 55px;
+    bottom: 57px;
+  }
+  .rating {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    .star-rating {
+      margin-bottom: 0;
+      margin-top: 0;
+      span:before {
+        color: var(--theme-color1);
+        font-weight: 600;
+      }
+    }
+  }
+}

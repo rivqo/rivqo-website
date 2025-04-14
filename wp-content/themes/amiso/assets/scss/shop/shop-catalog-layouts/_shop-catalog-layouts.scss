@@ -1,0 +1,24 @@
+/*
+ * shop-catalog-layouts.scss
+ * -----------------------------------------------
+*/
+$wc-icon-color-default: "";
+$wc-icon-color-hover: "-white";
+//$wc-icon-color-hover: "";
+$wc-icon-bg-color-default: #fff;
+$wc-icon-bg-color-hover: var(--theme-color1);
+.woocommerce {
+  .carousel-layout {
+    &.owl-carousel {
+      .owl-item {
+        .thumb {
+          img {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
+.woocommerce {
+}

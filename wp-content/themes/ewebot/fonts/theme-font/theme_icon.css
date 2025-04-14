@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "Theme_icon";
+	src: url("Theme.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="theme_icon-"]:before, [class*=" theme_icon-"]:before,
+[class^="theme_icon-"]:after, [class*=" theme_icon-"]:after {
+	font-family: Theme_icon;
+	font-size: 26px;
+	font-style: normal;
+	margin-left: 9px;
+}
+
+.theme_icon-shopping-bag:before { content: "\f100"; }       /* Bag */
+.theme_icon-search:before { content: "\f101"; }				/* Search */
+.theme_icon-cart:before { content: "\f102"; }				/* Cart */
+.theme_icon-fullscreen:before { content: "\f103"; }			/* Full Screen */
+.theme_icon-close:before { content: "\f104"; }			    /* Close */
+.theme_icon-next:before { content: "\f105"; }			    /* Right Arrow */
+.theme_icon-comment:before { content: "\f106"; }			/* Chat */
+.theme_icon-like:before { content: "\f107"; }			    /* Star */
+.theme_icon-home-repair:before { content: "\f108"; }		/* Ruller */
+.theme_icon-heart:before { content: "\f109"; }			    /* Heart */
+.theme_icon-exit:before { content: "\f10a"; }               /* Delete */
+.theme_icon-envelopment:before { content: "\f10b"; }       /* Envelopment */
+

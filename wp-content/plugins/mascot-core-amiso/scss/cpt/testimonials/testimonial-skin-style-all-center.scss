@@ -1,0 +1,61 @@
+@import "../../bootstrap-loader";
+@import "testimonial-common";
+
+.testimonial-skin-style-all-center {
+  position: relative;
+  text-align: center;
+  @include transition(all .3s ease-in-out);
+
+  @include star-rating-function();
+  .star-rating {
+    float: none;
+    margin: 0 auto;
+    overflow: visible;
+    span {
+      &:before {
+        color: var(--theme-color1);
+      }
+    }
+  }
+  .author-text {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  .author-info {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    @include media-breakpoint-only(md) {
+      margin-bottom: 20px;
+    }
+    .name {
+      overflow: hidden;
+      margin: 0;
+      line-height: 32px;
+      @include media-breakpoint-down(sm) {
+        float: none;
+      }
+    }
+    .job-position {
+      margin-left: 15px;
+      font-size: 14px;
+      display: inline;
+      color: var(--theme-color2);
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 18px;
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 0;
+      }
+    }
+  }
+  .author-thumb {
+    margin-bottom: 35px;
+    img {
+      width: 100px;
+      border: 6px solid #eee;
+    }
+  }
+}

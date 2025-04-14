@@ -1,0 +1,71 @@
+@import "../../bootstrap-loader";
+
+/*
+ * Shortcode: staff.scss
+ * -----------------------------------------------
+*/
+.tm-sc-staff {
+  .team-item-skin-style3 {
+    background-color: #fff;
+    border: 1px solid #eeee;
+    padding: 30px;
+    padding-bottom: 0;
+    margin-top: 30px;
+    text-align: center;
+    .staff-inner {
+      .thumb {
+        img {
+          margin-top: -60px;
+          @include scale(1);
+          @include transition(all .4s ease-in-out);
+        }
+      }
+      .staff-content {
+        padding-top: 25px;
+        .name {
+          margin-bottom: 5px;
+          text-transform: uppercase;
+        }
+        .speciality {
+          margin-top: 5px;
+          margin-bottom: 30px;
+          font-size: inherit !important;
+        }
+        .staff-social-links {
+          ul {
+            margin-bottom: 0;
+            li {
+              list-style: none;
+              display: inline-block;
+              margin-right: 10px;
+              margin-bottom: 0;
+              a {
+                background: #eee;
+                height: 42px;
+                display: inline-block;
+                width: 42px;
+                text-align: center;
+                line-height: 42px;
+                color: #333;
+                font-size: 14px;
+                @include transition(all .3s ease-in-out);
+                &:hover {
+                  background: var(--theme-color1);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &:hover {
+      .staff-inner {
+        .thumb {
+          img {
+            @include scale(1.07);
+          }
+        }
+      }
+    }
+  }
+}

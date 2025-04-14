@@ -1,0 +1,25 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_tm_addons.vars.scss";
+
+//@mixin tm_addons--lg() {
+@media #{$media_lg} {
+
+	/* Mouse helper */
+	.tm_cursor_mouse_helper {
+		display: none;
+	}
+
+	/* Restore system cursor */
+	.tm_addons_hide_cursor,
+	.tm_addons_hide_cursor *,
+	[data-mouse-helper-hide-cursor="1"],
+	[data-mouse-helper-hide-cursor="1"] * {
+		cursor: unset !important;
+	}
+
+	[data-mouse-helper="highlight"] {
+		background-size: 130vw 130vh !important;
+		background-position: center !important;
+		@include border-sharp;
+	}
+}

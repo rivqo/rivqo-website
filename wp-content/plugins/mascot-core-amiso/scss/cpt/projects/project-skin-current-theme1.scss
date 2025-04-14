@@ -1,0 +1,91 @@
+@import "../../bootstrap-loader";
+@import "project-skin-common";
+
+.projects-current-theme1 {
+  position: relative;
+  .inner-box {
+    position: relative;
+    &:hover {
+      .image-box .image {
+        img {
+          @include transform(scale(1.1));
+          opacity: 0.4;
+        }
+      }
+      .info-box {
+        opacity: 1;
+        visibility: visible;
+        bottom: 20px;
+      }
+    }
+  }
+
+  .image-box {
+    position: relative;
+    @include transition(all 300ms ease);
+    .image {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      margin-bottom: 0;
+      background-color: var(--theme-color2);
+      img {
+        width: 100%;
+        @include transition(all 300ms ease);
+      }
+    }
+  }
+
+  .info-box {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 25px 30px;
+    min-width: 270px;
+    @include transition(all 300ms ease);
+    border-radius: 0 10px 10px 0;
+    background-color: #ffffff;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    .cat-list {
+      li {
+        font-size: 16px;
+        color: #6a6a6a;
+      }
+    }
+    .title {
+      margin-top: 0;
+      margin-bottom: 0;
+      &:hover {
+        color: var(--theme-color1);
+      }
+    }
+  }
+
+  .read-more {
+    position: absolute;
+    @include flex-center;
+    right: 20px;
+    top: -26px;
+    height: 52px;
+    width: 52px;
+    font-size: 18px;
+    color: var(--text-color-bg-theme-color1);
+    background-color: var(--theme-color1);
+    border-radius: 50%;
+    @include transition(all 300ms ease);
+    z-index: 3;
+    &:hover {
+      color: var(--text-color-bg-theme-color2);
+      background-color: var(--theme-color2);
+      @include transition(all 300ms ease);
+    }
+  }
+}
+.gallery-carousel {
+  .owl-nav,
+  .owl-dots {
+    display: none;
+  }
+}

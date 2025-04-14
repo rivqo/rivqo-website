@@ -1,0 +1,70 @@
+@import "../../bootstrap-loader";
+
+.service-skin-style2 {
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 5px 0px 0px rgba(145, 195, 48, 0.004);
+  @include transition(all .3s ease);
+  .thumb{
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px 6px 0 0;
+    img {
+      @include scale(1.02);
+      @include transition(all .4s ease-in-out);
+    }
+  }
+  .content{
+    background-color: #181f2e;
+    padding: 40px;
+    position: relative;
+    border-radius: 0 0 6px 6px;
+    text-align: center;
+    .service-icon {
+      background-color: var(--theme-color1);
+      border-radius: 50%;
+      height: 72px;
+      left: 0;
+      line-height: 72px;
+      margin: 0 auto;
+      position: absolute;
+      right: 0;
+      top: -30px;
+      width: 72px;
+      text-align: center;
+      @include transition(all .4s ease);
+      i {
+        color: #fff;
+        font-size: 36px;
+        @include transition(all .4s ease);
+      }
+    }
+    .title{
+      line-height: 30px;
+      color: #fff;
+      margin-top: 30px;
+      a:hover,
+      a:focus {
+        color: var(--theme-color1);
+      }
+    }
+    .excerpt {
+      color: #c9d1e5;
+    }
+  }
+  &:hover{
+    .thumb{
+      img {
+        @include scale(1.1);
+      }
+    }
+    .content{
+      .service-icon {
+        background-color: var(--theme-color2);
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

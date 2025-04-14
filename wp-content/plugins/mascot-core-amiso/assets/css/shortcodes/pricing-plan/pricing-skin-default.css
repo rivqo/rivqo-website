@@ -1,0 +1,86 @@
+.pricing-plan-skin-default {
+  transition: all 0.3s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .pricing-plan-skin-default {
+    transition: none;
+  }
+}
+.pricing-plan-skin-default:before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: 40px;
+  height: 100px;
+  width: 6px;
+  border-radius: 5px;
+  background-color: var(--theme-color1);
+  z-index: 1;
+}
+.pricing-plan-skin-default .pricing-plan-inner-wrapper {
+  overflow: hidden;
+  position: relative;
+  padding: 40px;
+  border-radius: 10px;
+}
+.pricing-plan-skin-default .pricing-plan-inner .pricing-plan-title-area {
+  padding-bottom: 0;
+  padding-top: 15px;
+}
+.pricing-plan-skin-default .pricing-plan-inner .pricing-plan-title-area .pricing-plan-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.pricing-plan-skin-default .pricing-plan-inner .pricing-plan-title-area .pricing-plan-subtitle {
+  font-size: 1rem;
+  color: #999;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.pricing-plan-skin-default .pricing-plan-inner .pricing-plan-pricing {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.pricing-plan-skin-default .pricing-plan-inner .pricing-plan-pricing .pricing-plan-price,
+.pricing-plan-skin-default .pricing-plan-inner .pricing-plan-pricing .pricing-plan-price-sale {
+  color: var(--theme-color1);
+  font-weight: 400;
+  font-size: 48px;
+}
+.pricing-plan-skin-default .pricing-plan-inner .pricing-plan-content {
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.pricing-plan-skin-default .pricing-plan-inner .pricing-plan-label {
+  position: absolute;
+  top: 20px;
+  right: -135px;
+  background-color: var(--theme-color1);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 340px;
+  padding: 10px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  transition: all 0.3s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .pricing-plan-skin-default .pricing-plan-inner .pricing-plan-label {
+    transition: none;
+  }
+}
+.pricing-plan-skin-default:hover .pricing-plan-thumb.has-thumb-hover .thumb {
+  display: none;
+}
+.pricing-plan-skin-default:hover .pricing-plan-thumb.has-thumb-hover .thumb-hover {
+  display: block;
+}

@@ -1,0 +1,76 @@
+@import "../../bootstrap-loader";
+
+.service-skin-style5 {
+  .tm-service {
+    .thumb {
+      overflow: hidden;
+      img {
+        width: 100%;
+        @include transition(all .5s);
+      }
+    }
+    .content {
+      align-items: center;
+      background-color: $white;
+      box-shadow: 0px 10px 30px 0px rgba(26, 29, 72, 0.07);
+      display: flex;
+      padding: 38px 40px 38px;
+      position: relative;
+      z-index: 1;
+      @include transition(all .3s);
+      &:after {
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+        @include transition(all .3s);
+        background-color: var(--theme-color1);
+      }
+      .icon {
+        margin-right: 30px;
+        line-height: 1;
+        .icon-img {
+          width: auto;
+          @include transition(all .3s);
+        }
+        i {
+          font-size: 52px;
+          color: var(--theme-color1);
+          @include transition(all .3s);
+        }
+      }
+      .title {
+        margin: 0;
+        text-transform: uppercase;
+      }
+    }
+    &:hover {
+      .thumb {
+        img {
+          transform: scale(1.1);
+        }
+      }
+      .content {
+        &:after {
+          height: 100%;
+        }
+        .icon {
+          .symbol-icon {
+            filter: brightness(.25);
+          }
+          i {
+            color: #fff;
+          }
+        }
+        .title {
+          a {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}

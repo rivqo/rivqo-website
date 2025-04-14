@@ -1,0 +1,1 @@
+<img src="<?php $image = wp_get_attachment_image_src( $image_icon['id'], $image_icon_predefined_image_size); echo esc_url( $image[0] );?>" <?php if( !empty( $image_icon_custom_size ) ) echo 'width="'.$image_icon_custom_size.'"'; ?> alt="<?php esc_attr_e( 'Image', 'mascot-core-amiso'); ?>">

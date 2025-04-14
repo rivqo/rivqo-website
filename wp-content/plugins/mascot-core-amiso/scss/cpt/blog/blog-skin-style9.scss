@@ -1,0 +1,55 @@
+@import "../../bootstrap-loader";
+@import "blog-common";
+
+.blog-skin-style9 {
+	position: relative;
+	.entry-header {
+		.entry-title {
+			margin-bottom: 30px;
+			margin-top: 0;
+			text-transform: capitalize;
+		}
+		.entry-meta{
+			margin-bottom: 5px;
+			i {
+				color: var(--theme-color1);
+			}
+		}
+	}
+	.entry-content {
+		background: #f7f7f7;
+    padding: 30px;
+    width: 94%;
+    position: absolute;
+    bottom: -200px;
+		.thumb{
+			overflow: hidden;
+			margin-bottom: 25px;
+			img {
+				@include scale(1);
+				@include transition(all .4s ease-in-out);
+			}
+		}
+		.post-excerpt {
+			padding: 0 0 25px;
+			margin-bottom: 0;
+		}
+		.mascot-post-excerpt{
+			color: #7c8186;
+		}
+	}
+	&:hover{
+		.entry-header {
+		}
+		.entry-content {
+			.thumb{
+				img {
+					@include scale(1.1);
+				}
+				.date{
+					background-color: #192a3a !important;
+				}
+			}
+		}
+	}
+}

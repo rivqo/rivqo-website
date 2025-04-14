@@ -1,0 +1,1 @@
+<div class="element"><a href="<?php echo esc_url( $custom_button[ 'link' ] ); ?>" class="<?php echo esc_attr(implode(' ', $btn_classes)); ?>" target="<?php echo esc_attr( $custom_button_link_open_in );?>"><?php echo esc_html( $custom_button[ 'title' ] ); ?></a></div>

@@ -1,0 +1,75 @@
+@import "../../bootstrap-loader";
+@import "project-skin-common";
+
+.project-skin-style2 {
+  position: relative;
+  .thumb {
+    img {
+      @include scale(1);
+      @include transition(all .4s ease-in-out);
+    }
+    overflow: hidden;
+    position: relative;
+    .overlay {
+      background-color: rgba(29, 29, 35, .7);
+      bottom: 0;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      @include transition(all .3s ease);
+      .icon {
+        font-size: 24px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        margin: 0 auto;
+      }
+    }
+  }
+  .details {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    background: rgba(var(--theme-color1-rgb), 0.9);
+    padding: 30px;
+    .cat-list {
+      li {
+        color: var(--text-color-bg-theme-color1);
+        a {
+          color: var(--text-color-bg-theme-color1);
+          &:hover {
+            color: var(--text-color-bg-theme-color1);
+          }
+        }
+      }
+    }
+    .title {
+      color: var(--text-color-bg-theme-color1);
+      margin-bottom: 0;
+      margin-top: 0;
+      a:hover,a:focus {
+        color: #f1f1f1;
+      }
+    }
+    h4 {
+    }
+  }
+  &:hover {
+    .thumb {
+      img {
+        @include scale(1.1);
+      }
+      .overlay {
+        opacity: 1;
+      }
+    }
+    .details {
+      .title {
+      }
+    }
+  }
+}

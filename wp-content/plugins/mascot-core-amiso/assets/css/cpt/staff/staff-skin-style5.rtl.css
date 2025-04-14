@@ -1,0 +1,49 @@
+/*
+ * Shortcode: staff.scss
+ * -----------------------------------------------
+*/
+.tm-sc-staff .team-item-skin-style5 {
+  text-align: center;
+}
+.tm-sc-staff .team-item-skin-style5 .team-thumb {
+  padding: 30px;
+  border: 1px solid #f0ecec;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.tm-sc-staff .team-item-skin-style5 .team-thumb img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  transition: all 0.4s ease 0s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tm-sc-staff .team-item-skin-style5 .team-thumb img {
+    transition: none;
+  }
+}
+.tm-sc-staff .team-item-skin-style5 .team-thumb .team-social {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 100px;
+  opacity: 0;
+  transition: 300ms;
+}
+.tm-sc-staff .team-item-skin-style5 .team-content .team-information .name {
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.tm-sc-staff .team-item-skin-style5:hover .team-thumb img {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.tm-sc-staff .team-item-skin-style5:hover .team-thumb .team-social {
+  bottom: 55px;
+  opacity: 1;
+}

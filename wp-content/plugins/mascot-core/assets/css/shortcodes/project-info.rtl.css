@@ -1,0 +1,19 @@
+.tm-sc-project-info .each-item {
+  margin-bottom: 30px;
+}
+.tm-sc-project-info .each-item:last-child {
+  margin-bottom: 0;
+}
+.tm-sc-project-info .project-title {
+  text-transform: uppercase;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.tm-sc-project-info .project-description {
+  margin: 0;
+}
+.tm-sc-project-info .project-description a {
+  color: var(--link-color);
+  text-decoration: underline;
+}

@@ -1,0 +1,105 @@
+@import "../../bootstrap-loader";
+
+.service-item-current-style1 {
+  position: relative;
+  margin-bottom: 30px;
+  @include transition(all 300ms ease);
+  z-index: 1;
+  &:hover {
+    box-shadow: 0 10px 60px rgba(0, 0, 0, .10);
+    border-radius: 20px;
+    .icon-box {
+      background-color: var(--theme-color1);
+      .icon {
+        i {
+          color: var(--text-color-bg-theme-color1);
+        }
+      }
+    }
+    .read-more {
+      i {
+        color: var(--text-color-bg-theme-color1);
+        background-color: var(--theme-color1);
+      }
+    }
+  }
+  .service-inner {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    padding: 45px 25px 50px 50px;
+    @include transition(all 300ms ease);
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 0;
+    &:before {
+      background-image: url(../../../images/current-theme/service1-bg-pattern.png);
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+    &:hover {
+      box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
+    }
+  }
+  .icon-box {
+    position: absolute;
+    right: -65px;
+    bottom: -55px;
+    height: 190px;
+    width: 190px;
+    background: #f3f3f3;
+    @include transition(all 300ms ease);
+    padding: 45px;
+    border-radius: 50%;
+    .icon {
+      i {
+        color: var(--theme-color1);
+        font-size: 60px;
+      }
+    }
+  }
+  .service-title {
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 15px;
+    &:hover {
+      color: var(--theme-color1);
+    }
+  }
+  .excerpt {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .read-more {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    color: #6a6a6a;
+
+    &:hover {
+      color: var(--theme-color2);
+      i {
+        color: var(--text-color-bg-theme-color2);
+        background-color: var(--theme-color2);
+      }
+    }
+    @include transition(all 100ms linear);
+    i {
+      margin-right: 20px;
+      height: 50px;
+      width: 50px;
+      font-size: 16px;
+      color: var(--theme-color1);
+      @include flex-center;
+      border-radius: 50%;
+      @include transition(all 100ms linear);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+  }
+}

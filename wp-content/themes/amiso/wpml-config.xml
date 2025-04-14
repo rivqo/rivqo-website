@@ -1,0 +1,117 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">clients</custom-type>
+		<custom-type translate="1">faq</custom-type>
+		<custom-type translate="1">footer</custom-type>
+		<custom-type translate="1">gallery-items</custom-type>
+		<custom-type translate="1">header-top</custom-type>
+		<custom-type translate="1">partners-items</custom-type>
+		<custom-type translate="1">pet</custom-type>
+		<custom-type translate="1">projects</custom-type>
+		<custom-type translate="1">resources-items</custom-type>
+		<custom-type translate="1">services</custom-type>
+		<custom-type translate="1">staff-items</custom-type>
+		<custom-type translate="1">testimonials</custom-type>
+		<custom-type translate="1">vacancies</custom-type>
+		<custom-type translate="1">vcsidebars</custom-type>
+		<custom-type translate="1">works</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">clients_category</taxonomy>
+		<taxonomy translate="1">faq_category</taxonomy>
+		<taxonomy translate="1">gallery_category</taxonomy>
+		<taxonomy translate="1">partners_category</taxonomy>
+		<taxonomy translate="1">pet_category</taxonomy>
+		<taxonomy translate="1">pet_tag</taxonomy>
+		<taxonomy translate="1">projects_category</taxonomy>
+		<taxonomy translate="1">resources_category</taxonomy>
+		<taxonomy translate="1">services_category</taxonomy>
+		<taxonomy translate="1">staff_category</taxonomy>
+		<taxonomy translate="1">testimonials_category</taxonomy>
+		<taxonomy translate="1">vacancies_category</taxonomy>
+		<taxonomy translate="1">works_category</taxonomy>
+		<taxonomy translate="1">translation_priority</taxonomy>
+	</taxonomies>
+	<custom-fields>
+		<custom-field action="translate">amiso_clients_mb_settings</custom-field>
+		<custom-field action="translate">amiso_gallery_mb_settings</custom-field>
+		<custom-field action="translate">_menu_item_mascot_dropdownposition</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_status</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_containerwidth</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_dropdownposition</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_bgimage</custom-field>
+		<custom-field action="translate">_menu_item_mascot_subtitle</custom-field>
+		<custom-field action="translate">_menu_item_mascot_menuicon</custom-field>
+		<custom-field action="translate">_menu_item_mascot_custombadge</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_gridcolumnwidth</custom-field>
+		<custom-field action="translate">_menu_item_mascot_megamenu_widgetarea</custom-field>
+		<custom-field action="translate">amiso_page_mb_sidebar_layout_settings</custom-field>
+		<custom-field action="translate">amiso_page_mb_slider_settings</custom-field>
+		<custom-field action="translate">amiso_page_mb_general_settings</custom-field>
+		<custom-field action="translate">amiso_page_mb_theme_color_settings</custom-field>
+		<custom-field action="translate">amiso_page_mb_header_settings</custom-field>
+		<custom-field action="translate">amiso_page_mb_logo_settings</custom-field>
+		<custom-field action="translate">amiso_page_mb_page_title_settings</custom-field>
+		<custom-field action="translate">amiso_page_mb_layout_settings</custom-field>
+		<custom-field action="translate">amiso_page_mb_footer_top_callout_settings</custom-field>
+		<custom-field action="translate">amiso_page_mb_footer_settings</custom-field>
+		<custom-field action="translate">amiso_staff_mb_general_info</custom-field>
+		<custom-field action="translate">amiso_staff_mb_working_hours</custom-field>
+		<custom-field action="translate">amiso_staff_mb_social_info</custom-field>
+		<custom-field action="translate">amiso_testimonials_mb_settings</custom-field>
+	</custom-fields>
+	<admin-texts>
+		<key name="amiso_redux_theme_opt">
+			<key name="logo-settings-site-brand" />
+			<key name="logo-settings-logo-default" />
+			<key name="logo-settings-logo-primary" />
+			<key name="logo-settings-logo-on-sticky" />
+
+
+			<key name="header-settings-header-top-column1-contact-info-phone">
+				<key name="text" />
+			</key>
+			<key name="header-settings-header-top-column1-contact-info-email">
+				<key name="text" />
+			</key>
+			<key name="header-settings-header-top-column1-contact-info-address">
+				<key name="text" />
+			</key>
+			<key name="header-settings-header-top-column1-contact-info-opening-hours">
+				<key name="text" />
+			</key>
+
+
+			<key name="header-settings-header-top-column2-contact-info-phone">
+				<key name="text" />
+			</key>
+			<key name="header-settings-header-top-column2-contact-info-email">
+				<key name="text" />
+			</key>
+			<key name="header-settings-header-top-column2-contact-info-address">
+				<key name="text" />
+			</key>
+			<key name="header-settings-header-top-column2-contact-info-opening-hours">
+				<key name="text" />
+			</key>
+
+
+			<key name="header-settings-header-top-column1-custom-text" />
+			<key name="header-settings-header-top-column2-custom-text" />
+
+
+			<key name="header-settings-header-top-column1-custom-button">
+				<key name="title" />
+			</key>
+			<key name="header-settings-header-top-column2-custom-button">
+				<key name="title" />
+			</key>
+			<key name="header-settings-header-mid-column3-custom-button">
+				<key name="title" />
+			</key>
+			<key name="header-settings-navigation-custom-button-info">
+				<key name="title" />
+			</key>
+		</key>
+	</admin-texts>
+</wpml-config>

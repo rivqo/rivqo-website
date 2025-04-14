@@ -1,0 +1,381 @@
+/* --------------------------------------
+$Author: ThemeMascot
+$URL: https://themeforest.net/user/ThemeMascot
+
+----------------------------------------- */
+:root {
+  --theme-color1: #ff3838;
+  --theme-color1-rgb: 255, 56, 56;
+  --theme-color1-lighter: #ff7070;
+  --theme-color1-darker: red;
+  --theme-color2: #181818;
+  --theme-color2-rgb: 24, 24, 24;
+  --theme-color2-lighter: #343434;
+  --theme-color2-darker: black;
+  --theme-color3: #ff6e2f;
+  --theme-color3-rgb: 255, 110, 47;
+  --theme-color3-lighter: #ff9567;
+  --theme-color3-darker: #f64a00;
+  --theme-color4: #87c03d;
+  --theme-color4-rgb: 135, 192, 61;
+  --theme-color4-lighter: #a1cf67;
+  --theme-color4-darker: #69952f;
+  --gradient-1: linear-gradient(to right, rgba(var(--theme-color1-rgb), 1) 0%, rgba(var(--theme-color4-rgb), 1) 100%);
+  --gradient-2: linear-gradient(to left, rgba(var(--theme-color1-rgb), 1) 0%, rgba(var(--theme-color4-rgb), 1) 100%);
+  --gradient-3: linear-gradient(-135deg, rgba(23, 23, 23, 0) 50%, var(--theme-color1) 100%);
+  --text-color-bg-theme-color1: #fff;
+  --text-color-bg-theme-color2: #fff;
+  --text-color-bg-theme-color3: #fff;
+  --text-color-bg-theme-color4: #fff;
+  --hover-theme-color: #ff3838;
+  --sidebar-default-theme-color: var(--theme-color1);
+  --footer-default-theme-color: var(--theme-color1);
+  --footer-default-hover-theme-color: var(--theme-color1);
+  --footer-default-text-color-on-bg-theme-color: var(--text-color-bg-theme-color1);
+}
+
+/*
+ * border: theme-color
+ * -----------------------------------------------
+*/
+.widget .line-bottom:after,
+.widget .line-bottom:after,
+.pager.theme-colored a {
+  border: 1px solid var(--theme-color1);
+}
+
+.hr-divider {
+  border-top-color: rgba(255, 56, 56, 0.2) !important;
+}
+
+/* -------- Text Theme Color ---------- */
+.text-theme-colored1 {
+  color: var(--theme-color1) !important;
+}
+
+.text-theme-colored2 {
+  color: var(--theme-color2) !important;
+}
+
+.text-theme-colored3 {
+  color: var(--theme-color3) !important;
+}
+
+.text-theme-colored4 {
+  color: var(--theme-color4) !important;
+}
+
+.bg-theme-colored1 {
+  background-color: var(--theme-color1) !important;
+}
+
+.bg-theme-colored2 {
+  background-color: var(--theme-color2) !important;
+}
+
+.bg-theme-colored3 {
+  background-color: var(--theme-color3) !important;
+}
+
+.bg-theme-colored4 {
+  background-color: var(--theme-color4) !important;
+}
+
+.border-theme-colored1 {
+  border-color: var(--theme-color1) !important;
+}
+
+.border-theme-colored2 {
+  border-color: var(--theme-color2) !important;
+}
+
+.border-theme-colored3 {
+  border-color: var(--theme-color3) !important;
+}
+
+.border-theme-colored4 {
+  border-color: var(--theme-color4) !important;
+}
+
+/*
+ * blog-single.scss
+ * -----------------------------------------------
+*/
+/*
+ * Shortcode: blog.scss
+ * -----------------------------------------------
+*/
+.tm-sc-blog.blog-classic article .entry-header .post-single-meta {
+  background: var(--theme-color1);
+}
+.tm-sc-blog.blog-modern article .entry-header .post-single-meta {
+  background: var(--theme-color1);
+}
+.tm-sc-blog.blog-modern article .entry-content .post-btn-readmore {
+  border-color: var(--theme-color1);
+  background-color: #fff;
+}
+.tm-sc-blog.blog-modern article:hover .entry-content .post-btn-readmore {
+  background-color: var(--theme-color1);
+}
+.tm-sc-blog.blog-modern article:hover .entry-content .post-btn-readmore .btn-plain-text-with-arrow:after {
+  color: #fff;
+}
+.tm-sc-blog.blog-alternative-design .isotope-layout-inner .isotope-item:not(.isotope-item-sizer):nth-child(8n+1) article .post-thumb .post-thumb-inner .thumb:after, .tm-sc-blog.blog-alternative-design .isotope-layout-inner .isotope-item:not(.isotope-item-sizer):nth-child(8n+3) article .post-thumb .post-thumb-inner .thumb:after, .tm-sc-blog.blog-alternative-design .isotope-layout-inner .isotope-item:not(.isotope-item-sizer):nth-child(8n+6) article .post-thumb .post-thumb-inner .thumb:after, .tm-sc-blog.blog-alternative-design .isotope-layout-inner .isotope-item:not(.isotope-item-sizer):nth-child(8n+8) article .post-thumb .post-thumb-inner .thumb:after {
+  background-color: rgba(255, 56, 56, 0.94);
+}
+
+/*
+ * Shortcode: buttons.scss
+ * -----------------------------------------------
+*/
+.btn-theme-colored1 {
+  color: #000;
+  background-color: #ff3838;
+  border-color: #ff3838;
+}
+.btn-theme-colored1:hover {
+  color: #000;
+  background-color: #ff5656;
+  border-color: #ff4c4c;
+}
+
+.btn-theme-colored2 {
+  color: #fff;
+  background-color: #181818;
+  border-color: #181818;
+}
+.btn-theme-colored2:hover {
+  color: #fff;
+  background-color: #141414;
+  border-color: #131313;
+}
+
+.btn-theme-colored3 {
+  color: #000;
+  background-color: #ff6e2f;
+  border-color: #ff6e2f;
+}
+.btn-theme-colored3:hover {
+  color: #000;
+  background-color: #ff844e;
+  border-color: #ff7d44;
+}
+
+.btn-theme-colored4 {
+  color: #000;
+  background-color: #87c03d;
+  border-color: #87c03d;
+}
+.btn-theme-colored4:hover {
+  color: #000;
+  background-color: #99c95a;
+  border-color: #93c650;
+}
+
+.btn-outline-theme-colored1 {
+  color: #ff3838;
+  border-color: #ff3838;
+}
+.btn-outline-theme-colored1:hover {
+  color: #000;
+  background-color: #ff3838;
+  border-color: #ff3838;
+}
+
+.btn-outline-theme-colored2 {
+  color: #181818;
+  border-color: #181818;
+}
+.btn-outline-theme-colored2:hover {
+  color: #fff;
+  background-color: #181818;
+  border-color: #181818;
+}
+
+.btn-outline-theme-colored3 {
+  color: #ff6e2f;
+  border-color: #ff6e2f;
+}
+.btn-outline-theme-colored3:hover {
+  color: #000;
+  background-color: #ff6e2f;
+  border-color: #ff6e2f;
+}
+
+.btn-outline-theme-colored4 {
+  color: #87c03d;
+  border-color: #87c03d;
+}
+.btn-outline-theme-colored4:hover {
+  color: #000;
+  background-color: #87c03d;
+  border-color: #87c03d;
+}
+
+.btn-theme-colored1 {
+  color: var(--text-color-bg-theme-color1);
+  background-color: var(--theme-color1);
+  border-color: var(--theme-color1);
+}
+.btn-theme-colored1:hover, .btn-theme-colored1:focus {
+  color: var(--text-color-bg-theme-color2);
+  background-color: var(--theme-color1);
+  border-color: var(--theme-color1);
+}
+.btn-theme-colored1:before {
+  background-color: var(--theme-color1-darker);
+}
+
+.btn-theme-colored2 {
+  color: var(--text-color-bg-theme-color2);
+  background-color: var(--theme-color2);
+  border-color: var(--theme-color2);
+}
+.btn-theme-colored2:hover, .btn-theme-colored2:focus {
+  color: var(--text-color-bg-theme-color1);
+  background-color: var(--theme-color2);
+  border-color: var(--theme-color2);
+}
+.btn-theme-colored2:before {
+  background-color: var(--theme-color1);
+}
+
+.btn-theme-colored3 {
+  color: var(--text-color-bg-theme-color3);
+  background-color: var(--theme-color3);
+  border-color: var(--theme-color3);
+}
+.btn-theme-colored3:hover, .btn-theme-colored3:focus {
+  color: var(--text-color-bg-theme-color1);
+  background-color: var(--theme-color3);
+  border-color: var(--theme-color3);
+}
+
+.btn-theme-colored4 {
+  color: var(--text-color-bg-theme-color4);
+  background-color: var(--theme-color4);
+  border-color: var(--theme-color4);
+}
+.btn-theme-colored4:hover, .btn-theme-colored4:focus {
+  color: var(--text-color-bg-theme-color1);
+  background-color: var(--theme-color4);
+  border-color: var(--theme-color4);
+}
+
+.btn-theme-colored3:before,
+.btn-theme-colored4:before,
+.btn-outline-theme-colored3:before,
+.btn-outline-theme-colored3:before {
+  background: var(--theme-color1);
+}
+
+.btn-outline-theme-colored1:hover,
+.btn-outline-theme-colored2:hover {
+  border-color: var(--theme-color3) !important;
+  color: #fff !important;
+}
+
+input[type=submit].btn-theme-colored1:hover, input[type=submit].btn-theme-colored1:focus {
+  color: var(--text-color-bg-theme-color2);
+  background-color: var(--theme-color2);
+}
+
+input[type=submit].btn-theme-colored2:hover, input[type=submit].btn-theme-colored2:focus {
+  color: var(--text-color-bg-theme-color1);
+  background-color: var(--theme-color1);
+}
+
+input[type=submit].btn-theme-colored3:hover, input[type=submit].btn-theme-colored3:focus {
+  color: var(--text-color-bg-theme-color1);
+  background-color: var(--theme-color1);
+}
+
+input[type=submit].btn-theme-colored4:hover, input[type=submit].btn-theme-colored4:focus {
+  color: var(--text-color-bg-theme-color1);
+  background-color: var(--theme-color1);
+}
+
+.btn-light:before,
+.btn-dark:before {
+  background-color: rgba(var(--theme-color2-rgb), 0.2);
+}
+.btn-light:hover, .btn-light:focus,
+.btn-dark:hover,
+.btn-dark:focus {
+  color: var(--text-color-bg-theme-color2);
+}
+.btn-light:hover:before, .btn-light:focus:before,
+.btn-dark:hover:before,
+.btn-dark:focus:before {
+  background-color: var(--theme-color2);
+}
+
+.btn-outline-light {
+  color: #fff;
+}
+
+.btn-outline-light:hover,
+.btn-outline-dark:hover {
+  background-color: transparent;
+}
+.btn-outline-light:before,
+.btn-outline-dark:before {
+  background-color: rgba(var(--theme-color2-rgb), 0.2);
+}
+.btn-outline-light:hover, .btn-outline-light:focus,
+.btn-outline-dark:hover,
+.btn-outline-dark:focus {
+  color: var(--text-color-bg-theme-color2);
+}
+.btn-outline-light:hover:before, .btn-outline-light:focus:before,
+.btn-outline-dark:hover:before,
+.btn-outline-dark:focus:before {
+  background-color: var(--theme-color2);
+}
+
+/*
+ * shop.scss
+ * -----------------------------------------------
+*/
+/*
+ * shop-common
+ * -----------------------------------------------
+*/
+.woocommerce .button:not(.compare):not(.yith-wcqv-button):not([name=apply_coupon]), .woosc_table .button, .woosc_table .added_to_cart, .woosw-item .added_to_cart {
+  color: #000;
+  background-color: #ff3838;
+  border-color: #ff3838;
+  color: var(--text-color-bg-theme-color1) !important;
+}
+.woocommerce .button:not(.compare):not(.yith-wcqv-button):not([name=apply_coupon]):hover, .woosc_table .button:hover, .woosc_table .added_to_cart:hover, .woosw-item .added_to_cart:hover {
+  color: #000;
+  background-color: #ff5656;
+  border-color: #ff4c4c;
+}
+.woocommerce .button:not(.compare):not(.yith-wcqv-button):not([name=apply_coupon]):hover, .woosc_table .button:hover, .woosc_table .added_to_cart:hover, .woosw-item .added_to_cart:hover {
+  color: var(--text-color-bg-theme-color3) !important;
+}
+.woocommerce .button:not(.compare):not(.yith-wcqv-button):not([name=apply_coupon]):focus, .woosc_table .button:focus, .woosc_table .added_to_cart:focus, .woosw-item .added_to_cart:focus {
+  color: var(--text-color-bg-theme-color3) !important;
+  box-shadow: none;
+}
+.woocommerce .button:not(.compare):not(.yith-wcqv-button):not([name=apply_coupon]):disabled, .woocommerce .button:not(.compare):not(.yith-wcqv-button):not([name=apply_coupon]).disabled, .woosc_table .button:disabled, .woosc_table .button.disabled, .woosc_table .added_to_cart:disabled, .woosc_table .added_to_cart.disabled, .woosw-item .added_to_cart:disabled, .woosw-item .added_to_cart.disabled {
+  color: var(--text-color-bg-theme-color1) !important;
+  opacity: 0.5;
+}
+.woocommerce .button:not(.compare):not(.yith-wcqv-button):not([name=apply_coupon]):disabled:hover, .woocommerce .button:not(.compare):not(.yith-wcqv-button):not([name=apply_coupon]).disabled:hover, .woosc_table .button:disabled:hover, .woosc_table .button.disabled:hover, .woosc_table .added_to_cart:disabled:hover, .woosc_table .added_to_cart.disabled:hover, .woosw-item .added_to_cart:disabled:hover, .woosw-item .added_to_cart.disabled:hover {
+  color: var(--text-color-bg-theme-color3) !important;
+}
+
+/*
+ *  common.scss
+ * -----------------------------------------------
+*/
+.scroll-to-top a {
+  background-image: linear-gradient(to right, #ff3838 0%, #ff7d7d 51%, #ff3838 100%);
+}
+.scroll-to-top a:hover {
+  box-shadow: 0 10px 20px rgba(255, 56, 56, 0.5);
+  background-position: right center;
+}

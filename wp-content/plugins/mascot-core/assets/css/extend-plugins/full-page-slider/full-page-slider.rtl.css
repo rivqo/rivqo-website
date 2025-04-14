@@ -1,0 +1,79 @@
+/*
+ * Shortcode: multi-scroll-slider.scss
+ * -----------------------------------------------
+*/
+/* Menu Style */
+#tm-full-page-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#tm-full-page-menu li {
+  display: inline-block;
+  margin: 10px;
+  color: #000;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0;
+  -webkit-border-radius: 10px;
+  border-radius: 25px;
+}
+@media (max-width: 767.98px) {
+  #tm-full-page-menu li {
+    margin: 4px;
+  }
+}
+#tm-full-page-menu li a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  #tm-full-page-menu li a {
+    transition: none;
+  }
+}
+@media (max-width: 767.98px) {
+  #tm-full-page-menu li a {
+    font-size: 13px;
+  }
+}
+#tm-full-page-menu li:hover, #tm-full-page-menu li.active {
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+}
+#tm-full-page-menu li:hover a, #tm-full-page-menu li.active a {
+  color: #fff;
+}
+#tm-full-page-menu li a, #tm-full-page-menu li.active a {
+  padding: 9px 25px;
+  display: block;
+}
+@media (max-width: 767.98px) {
+  #tm-full-page-menu li a, #tm-full-page-menu li.active a {
+    padding: 9px 15px;
+  }
+}
+#tm-full-page-menu li.active a {
+  color: #fff;
+}
+
+#fp-nav li span {
+  background: rgba(216, 216, 216, 0.65) !important;
+}
+#fp-nav li .active span {
+  background: rgba(150, 150, 150, 0.55) !important;
+  border-color: rgba(150, 150, 150, 0.35) !important;
+}
+
+.tm-full-page-slider .fp-slidesNav.fp-bottom {
+  text-align: center;
+}
+.tm-full-page-slider .fp-section .fp-slide {
+  background-size: cover;
+}

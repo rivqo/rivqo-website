@@ -1,0 +1,163 @@
+/* --------------------------------------
+$Author: ThemeMascot
+$URL: https://themeforest.net/user/ThemeMascot
+----------------------------------------- */
+
+
+/*
+ * Dark.scss
+ * -----------------------------------------------
+*/
+
+
+$heading-dark-color: #FCFCFC;
+
+// Import bootstrap variables and mixins for reference
+@import "scss-bootstrap/functions";
+@import "scss-bootstrap/variables";
+@import "scss-bootstrap/mixins";
+
+@import "scss-core/variables";
+
+.dark {
+	body & {
+		background-color: #1e1e1e !important;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.h1,
+	.h2,
+	.h3,
+	.h4,
+	.h5,
+	.h6 {
+		color: $heading-dark-color;
+		a {
+			color: $heading-dark-color;
+		}
+	}
+	.divider-dark {
+		background-color: darken($white-base, 85.5%) !important;
+	}
+	/*Bacground Color*/
+	.bg-deep {
+		background-color: darken($white-base, 90%) !important;
+	}
+	.bg-light {
+		background-color: darken($white-base, 87.5%) !important;
+	}
+	.bg-lighter {
+		background-color: darken($white-base, 85%) !important;
+	}
+	.bg-lightest {
+		background-color: darken($white-base, 80%) !important;
+	}
+	.bg-white-light {
+		background-color: $black-333 !important;
+	}
+	/*Bacground Transparent Color*/
+	.bg-deep-transparent {
+		background-color: rgba($black, .90);
+	}
+	.bg-light-transparent {
+		background-color: rgba($black, .80);
+	}
+	.bg-lighter-transparent {
+		background-color: rgba($black, .70);
+	}
+	.bg-lightest-transparent {
+		background-color: rgba($black, .50);
+	}
+	.bg-very-lightest-transparent {
+		background-color: rgba($black, .20);
+	}
+	/*Text Color*/
+	.text-black-333 {
+		color: $heading-dark-color !important;
+	}
+	.text-white-light {
+		color: darken($white-base, 70%) !important;
+	}
+	/*Layer Overlay*/
+	.layer-overlay.overlay-light::before {
+		background-color: rgba(darken($white-base, 87%), .80);
+	}
+	.layer-overlay.overlay-lighter::before {
+		background-color: rgba(darken($white-base, 87%), .70);
+	}
+	.layer-overlay.overlay-deep::before {
+		background-color: rgba(darken($white-base, 87%), .90);
+	}
+	/*Custom Theme Styles*/
+	hr {
+		border-color: $black-333;
+	}
+	.border-1px {
+		border: 1px solid $black-333;
+	}
+	.border-1px {
+		border-color: $black-333 !important;
+	}
+	.border-2px {
+		border-color: $black-333 !important;
+	}
+	.border-3px,
+	.title-border {
+		border-color: $black-333 !important;
+	}
+	.border-4px {
+		border-color: $black-333 !important;
+	}
+	.border-5px {
+		border-color: $black-333 !important;
+	}
+	.owl-carousel.owl-nav-top .owl-controls .owl-nav .owl-prev,
+	.owl-carousel.owl-nav-top .owl-controls .owl-nav .owl-next {
+		background: darken($white-base, 75%) !important;
+	}
+	.separator::before,
+	.separator::after {
+		border-bottom: 1px solid $black-333;
+	}
+	.register-form .form-control {
+		background: rgba($black, .20);
+		border-color: $black-333;
+	}
+	.login-form {
+		border: 1px solid $black-333;
+	}
+	.form-control {
+		background: rgba($black, .20);
+		border-color: $black-333;
+	}
+	.header-nav .header-nav-wrapper.scroll-to-fixed-fixed.scroll-to-fixed-fixed {
+		border-bottom-color: $black-444;
+	}
+	.nav-tabs>li>a:hover,
+	.nav-tabs>li>a:focus {
+		color: $gray-base;
+	}
+	.nav-tabs>li>a:hover,
+	.nav-tabs>li.active a {
+		border-color: $black-333;
+	}
+	.nav-sidebar li {
+		background-color: darken($white-base, 86%) !important;
+	}
+	/*Blog Style*/
+	.blog-posts .post {
+		background-color: darken($white-base, 84.5%) !important;
+	}
+	.header-nav .header-nav-wrapper .menuzord {
+		background: transparent;
+	}
+	/* boxed-layout */
+	&.tm-boxed-layout section {
+		background: darken($white-base, 87.5%);
+	}
+}
+

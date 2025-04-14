@@ -1,0 +1,2881 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ewebot\n"
+"POT-Creation-Date: 2024-08-29 11:42+0300\n"
+"PO-Revision-Date: 2019-03-21\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17 core/customizer/section/blog.php:160
+#: core/customizer/section/blog.php:180
+#: core/customizer/section/shop_global_settings.php:79
+#: core/metabox_config.php:977
+msgid "4"
+msgstr ""
+
+#: 404.php:17
+msgid "Sorry We Can't Find That Page!"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"The page you are looking for was moved, removed, renamed or never existed."
+msgstr ""
+
+#: 404.php:17
+msgid "Take me Home"
+msgstr ""
+
+#: attachment.php:27
+msgid "attachment image"
+msgstr ""
+
+#: bloglisting.php:15 functions.php:1357 single.php:34
+msgid "comment"
+msgstr ""
+
+#: bloglisting.php:17 functions.php:1359 single.php:36
+msgid "comments"
+msgstr ""
+
+#: bloglisting.php:39 elementor/init.php:272 functions.php:1367 single.php:88
+msgid "by"
+msgstr ""
+
+#: bloglisting.php:115 single.php:281
+msgid "Read More"
+msgstr ""
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:15 comments.php:48 elementor/init.php:259
+msgid "Comment"
+msgstr ""
+
+#: comments.php:17 elementor/init.php:261
+msgid "Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Your Name*"
+msgstr ""
+
+#: comments.php:44
+msgid "Email*"
+msgstr ""
+
+#: comments.php:51
+msgid "You must be logged in to post a comment."
+msgstr ""
+
+#: comments.php:54
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:55
+msgid "Post a comment"
+msgstr ""
+
+#: comments.php:56
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:56
+msgid "Log out?"
+msgstr ""
+
+#: core/customizer/customizer_options.php:24
+msgid ""
+"The right click is disabled. Your content is protected. You can configure "
+"this option in the theme."
+msgstr ""
+
+#: core/customizer/section/blog.php:8 functions.php:962 functions.php:1234
+msgid "Blog"
+msgstr ""
+
+#: core/customizer/section/blog.php:15
+msgid "Show Post Title"
+msgstr ""
+
+#: core/customizer/section/blog.php:34
+msgid "Related Posts Section"
+msgstr ""
+
+#: core/customizer/section/blog.php:47
+msgid "Order Related Posts by"
+msgstr ""
+
+#: core/customizer/section/blog.php:49 functions.php:840 functions.php:951
+msgid "Tag"
+msgstr ""
+
+#: core/customizer/section/blog.php:50 functions.php:828 functions.php:833
+msgid "Category"
+msgstr ""
+
+#: core/customizer/section/blog.php:69
+msgid "Author Info Box"
+msgstr ""
+
+#: core/customizer/section/blog.php:81
+msgid "Comments in Single Post"
+msgstr ""
+
+#: core/customizer/section/blog.php:93
+msgid "Likes in Posts"
+msgstr ""
+
+#: core/customizer/section/blog.php:106
+msgid "Shares in Posts"
+msgstr ""
+
+#: core/customizer/section/blog.php:118
+msgid "Shorten Post Text in Blog Listing"
+msgstr ""
+
+#: core/customizer/section/blog.php:131
+msgid "Trackbacks and Pingbacks"
+msgstr ""
+
+#: core/customizer/section/blog.php:155
+msgid "Archive Columns"
+msgstr ""
+
+#: core/customizer/section/blog.php:157 core/customizer/section/blog.php:177
+#: core/customizer/section/shop_global_settings.php:76
+#: core/metabox_config.php:974
+msgid "1"
+msgstr ""
+
+#: core/customizer/section/blog.php:158 core/customizer/section/blog.php:178
+#: core/customizer/section/shop_global_settings.php:77
+#: core/metabox_config.php:975
+msgid "2"
+msgstr ""
+
+#: core/customizer/section/blog.php:159 core/customizer/section/blog.php:179
+#: core/customizer/section/shop_global_settings.php:78
+#: core/metabox_config.php:976
+msgid "3"
+msgstr ""
+
+#: core/customizer/section/blog.php:168
+msgid "Search in:"
+msgstr ""
+
+#: core/customizer/section/blog.php:175
+msgid "Search Columns"
+msgstr ""
+
+#: core/customizer/section/general.php:7
+msgid "General"
+msgstr ""
+
+#: core/customizer/section/general.php:14
+msgid "Responsive Mode"
+msgstr ""
+
+#: core/customizer/section/general.php:26
+msgid "Page Comments"
+msgstr ""
+
+#: core/customizer/section/general.php:38
+msgid "Back to Top"
+msgstr ""
+
+#: core/customizer/section/general.php:50 core/metabox_config.php:839
+msgid "Bubbles"
+msgstr ""
+
+#: core/customizer/section/general.php:62
+msgid "Select 404 Page"
+msgstr ""
+
+#: core/customizer/section/general.php:73
+msgid "404 Page Background Image"
+msgstr ""
+
+#: core/customizer/section/general.php:81
+msgid "Disable Right-Click"
+msgstr ""
+
+#: core/customizer/section/general.php:93
+msgid "Right click alert text"
+msgstr ""
+
+#: core/customizer/section/general.php:107
+#: core/customizer/section/general.php:116
+msgid "Custom JS"
+msgstr ""
+
+#: core/customizer/section/general.php:108
+msgid "Paste your JS code here."
+msgstr ""
+
+#: core/customizer/section/general.php:117
+msgid "Code to be added inside HEAD tag"
+msgstr ""
+
+#: core/customizer/section/google_map.php:7
+msgid "Google Map"
+msgstr ""
+
+#: core/customizer/section/google_map.php:14
+msgid "Google Map API Key"
+msgstr ""
+
+#: core/customizer/section/google_map.php:16
+msgid "The key is used from the elementor settings."
+msgstr ""
+
+#: core/customizer/section/google_map.php:24
+msgid "Map Latitude Coordinate"
+msgstr ""
+
+#: core/customizer/section/google_map.php:31
+msgid "Map Longitude Coordinate"
+msgstr ""
+
+#: core/customizer/section/google_map.php:38
+msgid "Default Zoom Map"
+msgstr ""
+
+#: core/customizer/section/google_map.php:39
+msgid "Select the number of zoom map."
+msgstr ""
+
+#: core/customizer/section/google_map.php:41
+msgid "10"
+msgstr ""
+
+#: core/customizer/section/google_map.php:42
+msgid "11"
+msgstr ""
+
+#: core/customizer/section/google_map.php:43
+msgid "12"
+msgstr ""
+
+#: core/customizer/section/google_map.php:44
+msgid "13"
+msgstr ""
+
+#: core/customizer/section/google_map.php:45
+msgid "14"
+msgstr ""
+
+#: core/customizer/section/google_map.php:46
+msgid "15"
+msgstr ""
+
+#: core/customizer/section/google_map.php:47
+msgid "16"
+msgstr ""
+
+#: core/customizer/section/google_map.php:48
+msgid "17"
+msgstr ""
+
+#: core/customizer/section/google_map.php:49
+msgid "18"
+msgstr ""
+
+#: core/customizer/section/google_map.php:60
+msgid "Map Marker Info"
+msgstr ""
+
+#: core/customizer/section/google_map.php:72
+msgid "Custom Map Marker URl"
+msgstr ""
+
+#: core/customizer/section/google_map.php:73
+msgid "Visible only on mobile or if \"Map Marker Info\" option is off."
+msgstr ""
+
+#: core/customizer/section/google_map.php:80
+msgid "Street Number"
+msgstr ""
+
+#: core/customizer/section/google_map.php:94
+msgid "Street"
+msgstr ""
+
+#: core/customizer/section/google_map.php:108 core/metabox_config.php:25
+msgid "Short Description"
+msgstr ""
+
+#: core/customizer/section/google_map.php:109
+msgid "The optimal number of characters is 35"
+msgstr ""
+
+#: core/customizer/section/google_map.php:124
+msgid "Map Marker Info Background"
+msgstr ""
+
+#: core/customizer/section/google_map.php:139
+msgid "Map Marker Description Text Color"
+msgstr ""
+
+#: core/customizer/section/google_map.php:154
+msgid "Custom Map Style"
+msgstr ""
+
+#: core/customizer/section/google_map.php:166
+msgid "JavaScript Style Array"
+msgstr ""
+
+#: core/customizer/section/google_map.php:167
+msgid ""
+"To change the style of the map, you must insert the JavaScript Style Array "
+"code from "
+msgstr ""
+
+#: core/customizer/section/google_map.php:167
+msgid "Snazzy Maps"
+msgstr ""
+
+#: core/customizer/section/optimization.php:7
+msgid "Optimization"
+msgstr ""
+
+#: core/customizer/section/optimization.php:15
+msgid "Remove All Files"
+msgstr ""
+
+#: core/customizer/section/optimization.php:25
+msgid "Merge Theme and Core CSS Files"
+msgstr ""
+
+#: core/customizer/section/optimization.php:44
+msgid "Merge All CSS Files"
+msgstr ""
+
+#: core/customizer/section/optimization.php:56
+msgid "Merge All JS Files"
+msgstr ""
+
+#: core/customizer/section/optimization.php:68
+msgid "Merge Theme and Core JS Files"
+msgstr ""
+
+#: core/customizer/section/optimization.php:87
+msgid "WooCommerce Optimization"
+msgstr ""
+
+#: core/customizer/section/optimization.php:99
+msgid "Disable jQuery Migrate in WordPress"
+msgstr ""
+
+#: core/customizer/section/page_title.php:7
+msgid "Page Title Section"
+msgstr ""
+
+#: core/customizer/section/page_title.php:14
+msgid "Show Section"
+msgstr ""
+
+#: core/customizer/section/page_title.php:27 core/metabox_config.php:273
+msgid "Show Page Title"
+msgstr ""
+
+#: core/customizer/section/page_title.php:47 core/metabox_config.php:337
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: core/customizer/section/page_title.php:67
+msgid "Show Meta (Blog & Portfolio)"
+msgstr ""
+
+#: core/customizer/section/page_title.php:87 core/metabox_config.php:347
+msgid "Vertical Alignment"
+msgstr ""
+
+#: core/customizer/section/page_title.php:89
+#: core/customizer/section/shop_global_settings.php:190
+#: core/customizer/section/shop_page_title.php:69
+msgid "Top"
+msgstr ""
+
+#: core/customizer/section/page_title.php:90
+#: core/customizer/section/shop_page_title.php:70
+msgid "Middle"
+msgstr ""
+
+#: core/customizer/section/page_title.php:91
+#: core/customizer/section/shop_global_settings.php:191
+#: core/customizer/section/shop_page_title.php:71
+msgid "Bottom"
+msgstr ""
+
+#: core/customizer/section/page_title.php:110
+msgid "Text Alignment"
+msgstr ""
+
+#: core/customizer/section/page_title.php:112
+#: core/customizer/section/shop_page_title.php:91 core/metabox_config.php:241
+msgid "Left"
+msgstr ""
+
+#: core/customizer/section/page_title.php:113
+#: core/customizer/section/shop_page_title.php:92
+msgid "Center"
+msgstr ""
+
+#: core/customizer/section/page_title.php:114
+#: core/customizer/section/shop_page_title.php:93 core/metabox_config.php:242
+msgid "Right"
+msgstr ""
+
+#: core/customizer/section/page_title.php:132 elementor/init.php:156
+msgid "Text Color"
+msgstr ""
+
+#: core/customizer/section/page_title.php:147 core/metabox_config.php:395
+msgid "Background Color"
+msgstr ""
+
+#: core/customizer/section/page_title.php:162
+msgid "Overlay Color"
+msgstr ""
+
+#: core/customizer/section/page_title.php:177
+msgid "Background Image"
+msgstr ""
+
+#: core/customizer/section/page_title.php:192
+msgid "Background-Repeat Values"
+msgstr ""
+
+#: core/customizer/section/page_title.php:194
+#: core/customizer/section/shop_page_title.php:173
+msgid "No Repeat"
+msgstr ""
+
+#: core/customizer/section/page_title.php:195
+#: core/customizer/section/shop_page_title.php:174
+msgid "Repeat All"
+msgstr ""
+
+#: core/customizer/section/page_title.php:196
+#: core/customizer/section/shop_page_title.php:175
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: core/customizer/section/page_title.php:197
+#: core/customizer/section/shop_page_title.php:176
+msgid "Repeat Vertically"
+msgstr ""
+
+#: core/customizer/section/page_title.php:198
+#: core/customizer/section/page_title.php:223
+#: core/customizer/section/page_title.php:252
+#: core/customizer/section/shop_page_title.php:177
+#: core/customizer/section/shop_page_title.php:197
+#: core/customizer/section/shop_page_title.php:221
+msgid "Inherit"
+msgstr ""
+
+#: core/customizer/section/page_title.php:221
+msgid "Background-Size Values"
+msgstr ""
+
+#: core/customizer/section/page_title.php:224
+#: core/customizer/section/shop_page_title.php:198
+msgid "Cover"
+msgstr ""
+
+#: core/customizer/section/page_title.php:225
+#: core/customizer/section/shop_page_title.php:199
+msgid "Contain"
+msgstr ""
+
+#: core/customizer/section/page_title.php:248
+msgid "Background-Attachment Values"
+msgstr ""
+
+#: core/customizer/section/page_title.php:250
+#: core/customizer/section/shop_page_title.php:219
+msgid "Scroll"
+msgstr ""
+
+#: core/customizer/section/page_title.php:251
+#: core/customizer/section/shop_page_title.php:220
+msgid "Fixed"
+msgstr ""
+
+#: core/customizer/section/page_title.php:275
+msgid "Background Image Alignment"
+msgstr ""
+
+#: core/customizer/section/page_title.php:277
+#: core/customizer/section/shop_page_title.php:241
+msgid "Left Top"
+msgstr ""
+
+#: core/customizer/section/page_title.php:278
+#: core/customizer/section/shop_page_title.php:242
+msgid "Left Center"
+msgstr ""
+
+#: core/customizer/section/page_title.php:279
+#: core/customizer/section/shop_page_title.php:243
+msgid "Left Bottom"
+msgstr ""
+
+#: core/customizer/section/page_title.php:280
+#: core/customizer/section/shop_page_title.php:244
+msgid "Center Top"
+msgstr ""
+
+#: core/customizer/section/page_title.php:281
+#: core/customizer/section/shop_page_title.php:245
+msgid "Center Center"
+msgstr ""
+
+#: core/customizer/section/page_title.php:282
+#: core/customizer/section/shop_page_title.php:246
+msgid "Center Bottom"
+msgstr ""
+
+#: core/customizer/section/page_title.php:283
+#: core/customizer/section/shop_page_title.php:247
+msgid "Right Top"
+msgstr ""
+
+#: core/customizer/section/page_title.php:284
+#: core/customizer/section/shop_page_title.php:248
+msgid "Right center"
+msgstr ""
+
+#: core/customizer/section/page_title.php:285
+#: core/customizer/section/shop_page_title.php:249
+msgid "Right Bottom"
+msgstr ""
+
+#: core/customizer/section/page_title.php:308
+msgid "Page Title Section Height"
+msgstr ""
+
+#: core/customizer/section/page_title.php:309
+msgid "Set Page Title Section Height in Pixels"
+msgstr ""
+
+#: core/customizer/section/page_title.php:324
+msgid "Show Top Border"
+msgstr ""
+
+#: core/customizer/section/page_title.php:344
+msgid "Top Border Color"
+msgstr ""
+
+#: core/customizer/section/page_title.php:365
+msgid "Show Bottom Border"
+msgstr ""
+
+#: core/customizer/section/page_title.php:384
+msgid "Bottom Border Color"
+msgstr ""
+
+#: core/customizer/section/page_title.php:405
+msgid "Bottom Margin"
+msgstr ""
+
+#: core/customizer/section/page_title.php:406
+msgid "Set Bottom Margin in Pixels"
+msgstr ""
+
+#: core/customizer/section/post_types.php:7
+msgid "Custom Post Types"
+msgstr ""
+
+#: core/customizer/section/post_types.php:14
+msgid "Show Team Post Title"
+msgstr ""
+
+#: core/customizer/section/post_types.php:33
+msgid "Show Portfolio Post Title"
+msgstr ""
+
+#: core/customizer/section/post_types.php:52
+msgid "Custom Team Slug"
+msgstr ""
+
+#: core/customizer/section/post_types.php:59
+msgid "Custom Portfolio Slug"
+msgstr ""
+
+#: core/customizer/section/post_types.php:66
+msgid "Custom Portfolio Name in WP Dashboard"
+msgstr ""
+
+#: core/customizer/section/post_types.php:73
+msgid "Portfolio Archive Page Layout"
+msgstr ""
+
+#: core/customizer/section/post_types.php:76
+msgid "1 Column"
+msgstr ""
+
+#: core/customizer/section/post_types.php:77
+msgid "2 Columns"
+msgstr ""
+
+#: core/customizer/section/post_types.php:78
+msgid "3 Columns"
+msgstr ""
+
+#: core/customizer/section/post_types.php:79
+msgid "4 Columns"
+msgstr ""
+
+#: core/customizer/section/preloader.php:7 core/metabox_config.php:616
+msgid "Preloader"
+msgstr ""
+
+#: core/customizer/section/preloader.php:14
+msgid "Show Preloader"
+msgstr ""
+
+#: core/customizer/section/preloader.php:26
+msgid "Select Type"
+msgstr ""
+
+#: core/customizer/section/preloader.php:28 core/metabox_config.php:632
+msgid "Linear"
+msgstr ""
+
+#: core/customizer/section/preloader.php:29 core/metabox_config.php:633
+msgid "Circle"
+msgstr ""
+
+#: core/customizer/section/preloader.php:30 core/metabox_config.php:634
+msgid "Theme"
+msgstr ""
+
+#: core/customizer/section/preloader.php:48
+msgid "Background"
+msgstr ""
+
+#: core/customizer/section/preloader.php:63
+msgid "Stroke Background Color"
+msgstr ""
+
+#: core/customizer/section/preloader.php:78
+msgid "Stroke Foreground Color"
+msgstr ""
+
+#: core/customizer/section/preloader.php:93
+msgid "Circle Size"
+msgstr ""
+
+#: core/customizer/section/preloader.php:94
+msgid "Set Circle Size in Pixels"
+msgstr ""
+
+#: core/customizer/section/preloader.php:114
+msgid "Circle Stroke Width"
+msgstr ""
+
+#: core/customizer/section/preloader.php:115
+msgid "Set Circle Stroke Width in Pixels"
+msgstr ""
+
+#: core/customizer/section/preloader.php:135
+msgid "Add Custom Logo"
+msgstr ""
+
+#: core/customizer/section/preloader.php:150
+msgid "Logo Width"
+msgstr ""
+
+#: core/customizer/section/preloader.php:151
+msgid "Set Logo Width in Pixels"
+msgstr ""
+
+#: core/customizer/section/preloader.php:171
+msgid "Fullscreen Mode"
+msgstr ""
+
+#: core/customizer/section/preloader.php:186 core/metabox_config.php:757
+msgid "Disable on Mobile"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:10
+msgid "Global Settings"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:17
+msgid "Modern Shop"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:29
+msgid "Main Font Color (Modern Shop)"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:44
+msgid "Headers Font Color (Modern Shop)"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:59
+msgid "Theme Color (Modern Shop)"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:74
+#: core/metabox_config.php:959
+msgid "Gallery Images Count in the Products Grid"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:80
+#: core/metabox_config.php:978
+msgid "5"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:98
+msgid "Products Layout"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:100
+#: core/customizer/section/shop_single_product.php:47
+#: core/metabox_config.php:878
+msgid "Container"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: core/customizer/section/shop_global_settings.php:101
+#: core/customizer/section/shop_single_product.php:48
+#: core/metabox_config.php:879
+msgid "Full Width"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:112
+msgid "Products Page Sidebar Layout"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:128
+msgid "Products Page Sidebar"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:147
+msgid ""
+"Show dropdown on the frontend to change Number of products displayed per page"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:159
+msgid ""
+"Show dropdown on the frontend to change Sorting of products displayed per "
+"page"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:171
+msgid "Infinite Scroll"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:172
+msgid "Select Infinite Scroll options"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:174
+#: core/metabox_config.php:240 core/metabox_config.php:927
+msgid "None"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:175
+msgid "Activate after clicking on \"View All\""
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:176
+msgid "Always"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:187
+msgid "Pagination"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:188
+msgid "Select the position of pagination."
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:192
+msgid "Top and Bottom"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:193
+#: core/customizer/section/shop_global_settings.php:216
+msgid "Off"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:211
+msgid "Grid/List Option"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:212
+msgid "Display products in grid or list view by default"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:214
+#: woocommerce/wooinit.php:1130
+msgid "Grid"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:215
+#: woocommerce/wooinit.php:1131
+msgid "List"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:227
+#: core/customizer/section/shop_global_settings.php:278
+msgid "Color for \"Sale\" label"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:228
+#: core/customizer/section/shop_global_settings.php:279
+msgid "Select the Background Color for \"Sale\" label."
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:244
+#: core/customizer/section/shop_global_settings.php:295
+msgid "Color for \"Hot\" label"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:245
+#: core/customizer/section/shop_global_settings.php:296
+msgid "Select the Background Color for \"Hot\" label."
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:261
+#: core/customizer/section/shop_global_settings.php:312
+msgid "Color for \"New\" label"
+msgstr ""
+
+#: core/customizer/section/shop_global_settings.php:262
+#: core/customizer/section/shop_global_settings.php:313
+msgid "Select the Background Color for \"New\" label."
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:9
+msgid "Page Title"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:16
+msgid "Show Title for Shop Category, Tags and Taxonomies"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:35
+msgid "Show Single Product Page Title"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:54
+msgid "Customize Shop Title"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:67
+msgid "Vertical Align"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:89
+msgid "Shop Title Text Align"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:111
+msgid "Shop Title Font Color"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:126
+msgid "Shop Title Background Color"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:141
+msgid "Shop Title Overlay Color"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:156
+msgid "Shop Title Background Image"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:171
+msgid "Shop Title Background Repeat"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:195
+msgid "Shop Title Background Size"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:217
+msgid "Shop Title Background Attachment"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:239
+msgid "Shop Title Background Position"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:267
+msgid "Shop Title Height"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:268
+msgid "Set Shop Title Height in px"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:283
+msgid "Shop Title Top Border"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:302
+msgid "Shop Title Top Border Color"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:323
+msgid "Shop Title Bottom Border"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:342
+msgid "Shop Title Bottom Border Color"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:363
+msgid "Shop Title Bottom Margin"
+msgstr ""
+
+#: core/customizer/section/shop_page_title.php:364
+msgid "Set Shop Title Bottom Margin in px"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:10
+msgid "Single Product Page"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:17
+#: core/metabox_config.php:892
+msgid "Thumbnails Layout"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:19
+#: core/metabox_config.php:896
+msgid "Thumbnails Bottom"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:20
+#: core/metabox_config.php:897
+msgid "Thumbnails Left"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:21
+#: core/metabox_config.php:898
+msgid "Thumbnails Grid"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:22
+#: core/metabox_config.php:899
+msgid "Thumbnails Vertical Grid"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:33
+msgid "Activate Carousel for Vertical Thumbnail"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:45
+#: core/metabox_config.php:874
+msgid "Product Page Layout"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:59
+msgid "Single Product Page Sidebar Layout"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:75
+msgid "Single Product Page Sidebar"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:94
+msgid "Show Size Guide"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:106
+#: core/metabox_config.php:934
+msgid "Size guide Popup Image"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:121
+msgid "Show Next and Previous products"
+msgstr ""
+
+#: core/customizer/section/shop_single_product.php:133
+msgid "Product Sharing"
+msgstr ""
+
+#: core/customizer/section/sidebar.php:10
+msgid "Sidebars"
+msgstr ""
+
+#: core/customizer/section/sidebar.php:17
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: core/customizer/section/sidebar.php:45 core/metabox_config.php:235
+msgid "Page Sidebar Layout"
+msgstr ""
+
+#: core/customizer/section/sidebar.php:62
+msgid "Select Page Sidebar"
+msgstr ""
+
+#: core/customizer/section/sidebar.php:83
+msgid "Blog Sidebar Layout"
+msgstr ""
+
+#: core/customizer/section/sidebar.php:100
+msgid "Select Blog Sidebar"
+msgstr ""
+
+#: core/customizer/section/sidebar.php:121
+msgid "Portfolio Sidebar Layout"
+msgstr ""
+
+#: core/customizer/section/sidebar.php:138
+msgid "Select Portfolio Sidebar"
+msgstr ""
+
+#: core/customizer/section/sidebar.php:159
+msgid "Team Sidebar Layout"
+msgstr ""
+
+#: core/customizer/section/sidebar.php:176
+msgid "Select Team Sidebar"
+msgstr ""
+
+#: core/customizer/section/typography.php:8
+msgid "Typography"
+msgstr ""
+
+#: core/customizer/section/typography.php:15
+msgid "Custom Fonts"
+msgstr ""
+
+#: core/metabox_config.php:13
+msgid "Team Options"
+msgstr ""
+
+#: core/metabox_config.php:18
+msgid "Member Job"
+msgstr ""
+
+#: core/metabox_config.php:30
+msgid "Fields"
+msgstr ""
+
+#: core/metabox_config.php:35
+msgid "Description"
+msgstr ""
+
+#: core/metabox_config.php:38
+msgid "Title"
+msgstr ""
+
+#: core/metabox_config.php:42
+msgid "Text"
+msgstr ""
+
+#: core/metabox_config.php:46
+msgid "Url"
+msgstr ""
+
+#: core/metabox_config.php:52
+msgid "Icons"
+msgstr ""
+
+#: core/metabox_config.php:59
+msgid "Select an icon"
+msgstr ""
+
+#: core/metabox_config.php:64
+msgid "Signature"
+msgstr ""
+
+#: core/metabox_config.php:77
+msgid "Post Format Layout"
+msgstr ""
+
+#: core/metabox_config.php:83
+msgid "You can use only featured image for this post-format"
+msgstr ""
+
+#: core/metabox_config.php:97
+msgid "Gallery images"
+msgstr ""
+
+#: core/metabox_config.php:112 core/metabox_config.php:130
+msgid "oEmbed"
+msgstr ""
+
+#: core/metabox_config.php:114 core/metabox_config.php:132
+msgid "enter URL"
+msgstr ""
+
+#: core/metabox_config.php:148
+msgid "Quote Author"
+msgstr ""
+
+#: core/metabox_config.php:161
+msgid "Author Image"
+msgstr ""
+
+#: core/metabox_config.php:175
+msgid "Quote Content"
+msgstr ""
+
+#: core/metabox_config.php:189
+msgid "Link URL"
+msgstr ""
+
+#: core/metabox_config.php:202
+msgid "Link Text"
+msgstr ""
+
+#: core/metabox_config.php:230
+msgid "Page Layout"
+msgstr ""
+
+#: core/metabox_config.php:239 core/metabox_config.php:277
+#: core/metabox_config.php:620 core/metabox_config.php:783
+#: core/metabox_config.php:843 core/metabox_config.php:866
+#: core/metabox_config.php:925 core/metabox_config.php:963
+msgid "default"
+msgstr ""
+
+#: core/metabox_config.php:248
+msgid "Page Sidebar"
+msgstr ""
+
+#: core/metabox_config.php:268
+msgid "Page Title Options"
+msgstr ""
+
+#: core/metabox_config.php:278 core/metabox_config.php:784
+msgid "yes"
+msgstr ""
+
+#: core/metabox_config.php:279 core/metabox_config.php:785
+msgid "no"
+msgstr ""
+
+#: core/metabox_config.php:286
+msgid "Use featured image for the page title background"
+msgstr ""
+
+#: core/metabox_config.php:295
+msgid "Page Title Overlay Color"
+msgstr ""
+
+#: core/metabox_config.php:309
+msgid "Page Sub Title Text"
+msgstr ""
+
+#: core/metabox_config.php:321
+msgid "Page Sub Title Text Color"
+msgstr ""
+
+#: core/metabox_config.php:351
+msgid "top"
+msgstr ""
+
+#: core/metabox_config.php:352
+msgid "middle"
+msgstr ""
+
+#: core/metabox_config.php:353
+msgid "bottom"
+msgstr ""
+
+#: core/metabox_config.php:364
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: core/metabox_config.php:368 core/registrator/license_verification.php:211
+msgid "left"
+msgstr ""
+
+#: core/metabox_config.php:369
+msgid "center"
+msgstr ""
+
+#: core/metabox_config.php:370
+msgid "right"
+msgstr ""
+
+#: core/metabox_config.php:381
+msgid "Font Color"
+msgstr ""
+
+#: core/metabox_config.php:409
+msgid "Page Title Background Image"
+msgstr ""
+
+#: core/metabox_config.php:421
+msgid "Background Repeat"
+msgstr ""
+
+#: core/metabox_config.php:425
+msgid "no-repeat"
+msgstr ""
+
+#: core/metabox_config.php:426
+msgid "repeat"
+msgstr ""
+
+#: core/metabox_config.php:427
+msgid "repeat-x"
+msgstr ""
+
+#: core/metabox_config.php:428
+msgid "repeat-y"
+msgstr ""
+
+#: core/metabox_config.php:429 core/metabox_config.php:444
+#: core/metabox_config.php:463
+msgid "inherit"
+msgstr ""
+
+#: core/metabox_config.php:440
+msgid "Background Size"
+msgstr ""
+
+#: core/metabox_config.php:445
+msgid "cover"
+msgstr ""
+
+#: core/metabox_config.php:446
+msgid "contain"
+msgstr ""
+
+#: core/metabox_config.php:457
+msgid "Background Attachment"
+msgstr ""
+
+#: core/metabox_config.php:461
+msgid "fixed"
+msgstr ""
+
+#: core/metabox_config.php:462
+msgid "scroll"
+msgstr ""
+
+#: core/metabox_config.php:474
+msgid "Background Position"
+msgstr ""
+
+#: core/metabox_config.php:478
+msgid "left top"
+msgstr ""
+
+#: core/metabox_config.php:479
+msgid "left center"
+msgstr ""
+
+#: core/metabox_config.php:480
+msgid "left bottom"
+msgstr ""
+
+#: core/metabox_config.php:481
+msgid "center top"
+msgstr ""
+
+#: core/metabox_config.php:482
+msgid "center center"
+msgstr ""
+
+#: core/metabox_config.php:483
+msgid "center bottom"
+msgstr ""
+
+#: core/metabox_config.php:484
+msgid "right top"
+msgstr ""
+
+#: core/metabox_config.php:485
+msgid "right center"
+msgstr ""
+
+#: core/metabox_config.php:486
+msgid "right bottom"
+msgstr ""
+
+#: core/metabox_config.php:497
+msgid "Height"
+msgstr ""
+
+#: core/metabox_config.php:511
+msgid "Set Page Title Top Border?"
+msgstr ""
+
+#: core/metabox_config.php:520
+msgid "Page Title Top Border Color"
+msgstr ""
+
+#: core/metabox_config.php:535
+msgid "Page Title Top Border Opacity"
+msgstr ""
+
+#: core/metabox_config.php:552
+msgid "Set Page Title Bottom Border?"
+msgstr ""
+
+#: core/metabox_config.php:561
+msgid "Page Title Bottom Border Color"
+msgstr ""
+
+#: core/metabox_config.php:576
+msgid "Page Title Bottom Border Opacity"
+msgstr ""
+
+#: core/metabox_config.php:591
+msgid "Title Bottom Margin"
+msgstr ""
+
+#: core/metabox_config.php:611
+msgid "Preloader Options"
+msgstr ""
+
+#: core/metabox_config.php:621 core/metabox_config.php:964
+msgid "custom"
+msgstr ""
+
+#: core/metabox_config.php:622
+msgid "none"
+msgstr ""
+
+#: core/metabox_config.php:628
+msgid "Preloader type"
+msgstr ""
+
+#: core/metabox_config.php:645
+msgid "Preloader Background"
+msgstr ""
+
+#: core/metabox_config.php:659
+msgid "Preloader Stroke Background Color"
+msgstr ""
+
+#: core/metabox_config.php:674
+msgid "Preloader Stroke Foreground Color"
+msgstr ""
+
+#: core/metabox_config.php:688
+msgid "Preloader Circle Width in px (Diameter)"
+msgstr ""
+
+#: core/metabox_config.php:702
+msgid "Preloader Circle Stroke Width"
+msgstr ""
+
+#: core/metabox_config.php:717
+msgid "Preloader Logo"
+msgstr ""
+
+#: core/metabox_config.php:730
+msgid "Preloader Logo Width in px"
+msgstr ""
+
+#: core/metabox_config.php:746
+msgid "Preloader Fullscreen"
+msgstr ""
+
+#: core/metabox_config.php:774
+msgid "Portfolio Options"
+msgstr ""
+
+#: core/metabox_config.php:779
+msgid "Portfolio Post Title"
+msgstr ""
+
+#: core/metabox_config.php:791
+msgid "Link to the work"
+msgstr ""
+
+#: core/metabox_config.php:796
+msgid "Video Link"
+msgstr ""
+
+#: core/metabox_config.php:798
+msgid ""
+"Put a link to your video (YouTube or Vimeo). Available only in the Portfolio "
+"Carousel Widget"
+msgstr ""
+
+#: core/metabox_config.php:803
+msgid "Video Icon Animation"
+msgstr ""
+
+#: core/metabox_config.php:815
+msgid "Shortcode Above Content"
+msgstr ""
+
+#: core/metabox_config.php:820
+msgid "Shortcode"
+msgstr ""
+
+#: core/metabox_config.php:834
+msgid "Bubbles Options"
+msgstr ""
+
+#: core/metabox_config.php:844
+msgid "Show"
+msgstr ""
+
+#: core/metabox_config.php:845
+msgid "Hide"
+msgstr ""
+
+#: core/metabox_config.php:862
+msgid "Single Product Page Settings"
+msgstr ""
+
+#: core/metabox_config.php:867 core/metabox_config.php:926
+msgid "Custom"
+msgstr ""
+
+#: core/metabox_config.php:911
+msgid "Sticky Thumbnails"
+msgstr ""
+
+#: core/metabox_config.php:921
+msgid "Size Guide for this product"
+msgstr ""
+
+#: core/metabox_config.php:943
+msgid "Image Size for Masonry Layout"
+msgstr ""
+
+#: core/metabox_config.php:947
+msgid "Small Horizontal Rectangle"
+msgstr ""
+
+#: core/metabox_config.php:948
+msgid "Large Horizontal Rectangle"
+msgstr ""
+
+#: core/metabox_config.php:949
+msgid "Large Vertical Rectangle"
+msgstr ""
+
+#: core/metabox_config.php:950
+msgid "Large 2x Rectangle"
+msgstr ""
+
+#: core/metabox_config.php:970
+msgid "Count of Images"
+msgstr ""
+
+#: core/metabox_config.php:991
+msgid "Single Product Settings"
+msgstr ""
+
+#: core/registrator/css-js.php:1846
+msgid "Min Price"
+msgstr ""
+
+#: core/registrator/css-js.php:1847
+msgid "Max Price"
+msgstr ""
+
+#: core/registrator/license_verification.php:96
+#: core/registrator/license_verification.php:137
+msgid "Registration Connection error"
+msgstr ""
+
+#: core/registrator/license_verification.php:100
+#: core/registrator/license_verification.php:141
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: core/registrator/license_verification.php:188
+msgid "Purchase Validation! Please activate your theme."
+msgstr ""
+
+#: core/registrator/license_verification.php:189
+#: core/registrator/license_verification.php:242
+msgid "Register Now"
+msgstr ""
+
+#: core/registrator/license_verification.php:189
+msgid "Buy Theme"
+msgstr ""
+
+#: core/registrator/license_verification.php:189
+#: core/registrator/license_verification.php:214
+#: core/registrator/license_verification.php:242
+#: core/tgm/class-tgm-plugin-activation.php:390
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/registrator/license_verification.php:209
+msgid "Your support package for this theme expired"
+msgstr ""
+
+#: core/registrator/license_verification.php:209
+msgid "ago"
+msgstr ""
+
+#: core/registrator/license_verification.php:211
+msgid "Your support package for this theme is about to expire"
+msgstr ""
+
+#: core/registrator/license_verification.php:214
+msgid "Update Support Package"
+msgstr ""
+
+#: core/registrator/license_verification.php:225
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: core/registrator/license_verification.php:241
+msgid "Create account and manage your theme purchase codes."
+msgstr ""
+
+#: core/registrator/sidebars.php:6 core/registrator/sidebars.php:19
+msgid ""
+"Add the widgets appearance for Custom Sidebar. Drag the widget from the "
+"available list on the left, configure widgets options and click Save button. "
+"Select the sidebar on the posts or pages in just few clicks."
+msgstr ""
+
+#: core/tgm.php:40
+msgid "Activate Theme Core"
+msgstr ""
+
+#: core/tgm.php:172
+msgid "The filesystem is currently unavailable for managing plugins."
+msgstr ""
+
+#: core/tgm.php:179
+msgid "Sorry, you are not allowed to manage network plugins."
+msgstr ""
+
+#: core/tgm.php:187
+msgid "Sorry, you are not allowed to activate this plugin."
+msgstr ""
+
+#: core/tgm.php:195
+msgid "Sorry, you are not allowed to deactivate this plugin."
+msgstr ""
+
+#: core/tgm.php:289 core/tgm/class-tgm-plugin-activation.php:844
+#: core/tgm/class-tgm-plugin-activation.php:1002
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: core/tgm.php:299
+msgid "Unable to determine what plugin was installed."
+msgstr ""
+
+#: core/tgm.php:355
+msgid "Network only plugin must be network activated."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:337 core/tgm/gt3-tgm.php:153
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:338 core/tgm/gt3-tgm.php:154
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:340 core/tgm/gt3-tgm.php:155
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:343 core/tgm/gt3-tgm.php:157
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:345 core/tgm/gt3-tgm.php:158
+#, php-format
+msgid "This theme requires the following plugins: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:349 core/tgm/gt3-tgm.php:160
+#, php-format
+msgid "This theme recommends the following plugins: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:353 core/tgm/gt3-tgm.php:170
+#, php-format
+msgid ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:357
+#, php-format
+msgid "There are updates available for the following plugins: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:361 core/tgm/gt3-tgm.php:164
+#, php-format
+msgid "The following required plugins are currently inactive: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:365 core/tgm/gt3-tgm.php:166
+#, php-format
+msgid "The following recommended plugins are currently inactive: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:369 core/tgm/gt3-tgm.php:174
+msgid "Begin installing plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:373
+msgid "Begin updating plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:377 core/tgm/gt3-tgm.php:175
+msgid "Begin activating plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:380 core/tgm/gt3-tgm.php:176
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:381
+#: core/tgm/class-tgm-plugin-activation.php:1158
+#: core/tgm/class-tgm-plugin-activation.php:2869
+#: core/tgm/class-tgm-plugin-activation.php:3916
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:382
+#: core/tgm/class-tgm-plugin-activation.php:3495 core/tgm/gt3-tgm.php:177
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:383
+#: core/tgm/class-tgm-plugin-activation.php:3288
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:385
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:387
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: core/tgm/class-tgm-plugin-activation.php:389
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:391
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:392
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:596
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:597
+msgid "Update Required"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:795
+#: core/tgm/class-tgm-plugin-activation.php:890
+msgid "No plugin specified."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:810
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:923
+msgid "Sorry, you are not allowed to update plugins for this site."
+msgstr ""
+
+#. translators: %s: Plugin version.
+#: core/tgm/class-tgm-plugin-activation.php:934
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1013
+msgid "Plugin update failed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1265
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1265
+#: core/tgm/class-tgm-plugin-activation.php:1268
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1268
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1457
+#: core/tgm/class-tgm-plugin-activation.php:3284
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: core/tgm/class-tgm-plugin-activation.php:2318
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2609
+msgid "Required"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2612
+msgid "Recommended"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2628
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2631
+msgid "External Source"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2634
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2651
+msgid "Not Installed"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2655
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2657
+msgid "Active"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2663
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2666
+msgid "Requires Update"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2669
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: core/tgm/class-tgm-plugin-activation.php:2678
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2724
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2728
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2732
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2736
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2818
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2826
+msgid "Installed version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2834
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2846
+msgid "Available version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2869
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2883
+msgid "Plugin"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2884
+msgid "Source"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2885
+msgid "Type"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2889
+msgid "Version"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2890
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/tgm/class-tgm-plugin-activation.php:2939
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/tgm/class-tgm-plugin-activation.php:2944
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/tgm/class-tgm-plugin-activation.php:2950
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3020
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3053
+msgid "Install"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3059
+msgid "Update"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3062
+msgid "Activate"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3093
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3095
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3136
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3138
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3244
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3270
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3494
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/tgm/class-tgm-plugin-activation.php:3834
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: core/tgm/class-tgm-plugin-activation.php:3837
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:3839
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3843
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:3845
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3846
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/tgm/class-tgm-plugin-activation.php:3848
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3851
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:3853
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3854
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/tgm/class-tgm-plugin-activation.php:3856
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:17
+msgid "GT3 Themes Core"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:26
+msgid "WP Daddy Builder Pro"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:35
+msgid "Revolution Slider"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:44
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:49
+msgid "Contact Form 7"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:54
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:59
+msgid "WooCommerce"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:64
+msgid "GT3 Ultimate Charts for Elementor Page Builder"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:74
+msgid "Photo Gallery by GT3 – Video Gallery & Gutenberg Block Gallery"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:79
+msgid "GT3 Photo & Video Gallery - Pro"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:93
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:98
+msgid "YITH WooCommerce Quick View"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:103
+msgid "Advanced AJAX Product Filters"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:108
+msgid "Variation Swatches for WooCommerce"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:162
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:168
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:172
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:178
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: elementor/init.php:112 elementor/init.php:588 elementor/init.php:694
+#: elementor/init.php:701
+msgid "Color"
+msgstr ""
+
+#: elementor/init.php:132
+msgid "Heading Color"
+msgstr ""
+
+#: elementor/init.php:174
+msgid "Line Color"
+msgstr ""
+
+#: elementor/init.php:215
+msgid "Modern Style?"
+msgstr ""
+
+#: elementor/init.php:217
+msgid "If checked, enable modern style"
+msgstr ""
+
+#: elementor/init.php:379
+msgid "View Type"
+msgstr ""
+
+#: elementor/init.php:382
+msgid "Type 1"
+msgstr ""
+
+#: elementor/init.php:383
+msgid "Type 2"
+msgstr ""
+
+#: elementor/init.php:384
+msgid "Type 3"
+msgstr ""
+
+#: elementor/init.php:385
+msgid "Type 4"
+msgstr ""
+
+#: elementor/init.php:386
+msgid "Type 5"
+msgstr ""
+
+#: elementor/init.php:407
+msgid "Package Name / Title"
+msgstr ""
+
+#: elementor/init.php:409
+msgid "Enter title of price block"
+msgstr ""
+
+#: elementor/init.php:410
+msgid "Base Plan"
+msgstr ""
+
+#: elementor/init.php:417
+msgid "Price Prefix "
+msgstr ""
+
+#: elementor/init.php:419
+msgid "Enter the price prefix for this package. e.g. \"$\""
+msgstr ""
+
+#: elementor/init.php:420
+msgid "$"
+msgstr ""
+
+#: elementor/init.php:427
+msgid "Package Price"
+msgstr ""
+
+#: elementor/init.php:429
+msgid "49"
+msgstr ""
+
+#: elementor/init.php:430
+msgid "Enter the price for this package. e.g. \"157\""
+msgstr ""
+
+#: elementor/init.php:437
+msgid "Price Suffix"
+msgstr ""
+
+#: elementor/init.php:439
+msgid "99"
+msgstr ""
+
+#: elementor/init.php:440
+msgid "Enter the price suffix for this package. e.g. \"/ person\""
+msgstr ""
+
+#: elementor/init.php:447
+msgid "Price Field"
+msgstr ""
+
+#: elementor/init.php:462
+msgid "Button Text"
+msgstr ""
+
+#: elementor/init.php:464
+msgid "Get Started"
+msgstr ""
+
+#: elementor/init.php:477
+msgid "Item"
+msgstr ""
+
+#: elementor/init.php:662
+msgid "Image Size"
+msgstr ""
+
+#: elementor/init.php:719 elementor/init.php:897
+msgid "Enable Text Color Gradient?"
+msgstr ""
+
+#: elementor/init.php:721 elementor/init.php:899
+msgid "If checked, enable text color gradient"
+msgstr ""
+
+#: elementor/init.php:730 elementor/init.php:777 elementor/init.php:908
+msgid "Text Color Gradient Start"
+msgstr ""
+
+#: elementor/init.php:744 elementor/init.php:791 elementor/init.php:922
+msgid "Text Color Gradient End"
+msgstr ""
+
+#: elementor/init.php:766
+msgid "Enable Text Color Gradient from Theme Options?"
+msgstr ""
+
+#: elementor/init.php:768
+msgid ""
+"If checked, enable text color gradient from theme options (string color "
+"ignored)"
+msgstr ""
+
+#: elementor/init.php:824
+msgid "Featured Image on default state?"
+msgstr ""
+
+#: elementor/init.php:826
+msgid "If checked featured image visible on default state (not hovered)"
+msgstr ""
+
+#: elementor/init.php:873
+msgid "Recommended image size is 246x536 pixels."
+msgstr ""
+
+#: elementor/init.php:944
+msgid "Disable Quote Icon"
+msgstr ""
+
+#: elementor/init.php:964
+msgid "Disable Items Rounded"
+msgstr ""
+
+#: full-width.php:39 page.php:39 single-portfolio.php:60 single-team.php:106
+msgid "Read more!"
+msgstr ""
+
+#: full-width.php:41 image.php:100 page.php:41 single-portfolio.php:61
+#: single.php:114
+msgid "Pages"
+msgstr ""
+
+#: full-width.php:77 index.php:58 page.php:76 single-portfolio.php:108
+#: single.php:355
+msgid "Password Protected"
+msgstr ""
+
+#: functions.php:112 woocommerce/wooinit.php:1132
+msgid "Grid Extended"
+msgstr ""
+
+#: functions.php:317
+msgid "says:"
+msgstr ""
+
+#: functions.php:320 image.php:88
+msgid "Edit"
+msgstr ""
+
+#: functions.php:325
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:338
+msgid "Reply"
+msgstr ""
+
+#: functions.php:770
+msgid "Author:"
+msgstr ""
+
+#: functions.php:774
+msgid "404"
+msgstr ""
+
+#: functions.php:782
+msgid "Archive"
+msgstr ""
+
+#: functions.php:796
+msgid "No Posts"
+msgstr ""
+
+#: functions.php:806
+msgid "Home"
+msgstr ""
+
+#: functions.php:854
+msgid "Search results"
+msgstr ""
+
+#: functions.php:956
+msgid "Author"
+msgstr ""
+
+#: functions.php:959
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:1061 functions.php:1091 functions.php:1119
+msgid "preloader"
+msgstr ""
+
+#: functions.php:1543
+msgid "Font Weight"
+msgstr ""
+
+#: functions.php:1545 woocommerce/gt3-templates/loop/product-show.php:18
+msgid "Default"
+msgstr ""
+
+#: functions.php:1546
+msgid "Lightest (100)"
+msgstr ""
+
+#: functions.php:1547
+msgid "Lighter (200)"
+msgstr ""
+
+#: functions.php:1548
+msgid "Light (300)"
+msgstr ""
+
+#: functions.php:1549
+msgid "Normal (400)"
+msgstr ""
+
+#: functions.php:1550
+msgid "Medium (500)"
+msgstr ""
+
+#: functions.php:1551
+msgid "Semi-Bold (600)"
+msgstr ""
+
+#: functions.php:1552
+msgid "Bold (700)"
+msgstr ""
+
+#: functions.php:1553
+msgid "Bolder (800)"
+msgstr ""
+
+#: functions.php:1554
+msgid "Extra Bold (900)"
+msgstr ""
+
+#: functions.php:1833
+msgid "© 2021 — Ewebot by GT3Themes. All Rights Reserved."
+msgstr ""
+
+#: image.php:65
+msgid "Published on"
+msgstr ""
+
+#: image.php:65
+msgid "in"
+msgstr ""
+
+#: image.php:82
+msgid "Link to full-size image"
+msgstr ""
+
+#: image.php:83
+msgid "Full resolution"
+msgstr ""
+
+#: image.php:106
+msgid "Back"
+msgstr ""
+
+#: search.php:82
+msgid "Oops!"
+msgstr ""
+
+#: search.php:82
+msgid "Not Found!"
+msgstr ""
+
+#: search.php:83
+msgid "Apologies, but we were unable to find what you were looking for."
+msgstr ""
+
+#: searchform.php:5
+msgctxt "label"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:6 searchform.php:7 woocommerce/product-searchform.php:26
+#: woocommerce/product-searchform.php:27
+msgid "Search"
+msgstr ""
+
+#: single-portfolio.php:91 single.php:338
+#: woocommerce/gt3-templates/default-pagination.php:20
+#: woocommerce/gt3-templates/pagination.php:23
+#: woocommerce/loop/default-pagination.php:36
+#: woocommerce/loop/pagination.php:38
+msgid "Prev"
+msgstr ""
+
+#: single-portfolio.php:95 single.php:342
+#: woocommerce/gt3-templates/default-pagination.php:21
+#: woocommerce/gt3-templates/pagination.php:24
+#: woocommerce/loop/default-pagination.php:37
+#: woocommerce/loop/pagination.php:39
+msgid "Next"
+msgstr ""
+
+#: single.php:295
+msgid "Related Posts"
+msgstr ""
+
+#: templates/pixproof_gallery.php:17
+msgid "Deselect"
+msgstr ""
+
+#: templates/pixproof_gallery.php:19
+msgid "Select"
+msgstr ""
+
+#: templates/pixproof_gallery.php:73
+msgid "Zoom"
+msgstr ""
+
+#: templates/pixproof_metadata.php:17
+msgid "Client"
+msgstr ""
+
+#: templates/pixproof_metadata.php:27
+msgid "Event date"
+msgstr ""
+
+#: templates/pixproof_metadata.php:37
+msgid "Images"
+msgstr ""
+
+#: templates/pixproof_metadata.php:47
+msgid "Download"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:88
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:108
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:114
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:136
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart.php:63
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:103
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:157
+msgid "Coupon Code:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:162
+msgid "Code here"
+msgstr ""
+
+#: woocommerce/cart/cart.php:163 woocommerce/cart/cart.php:166
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:166
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:166
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:172
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:28
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:47
+msgid "Back to Cart"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:80
+msgid "Your order"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:30
+msgid "QTY:"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:42
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/gt3-templates/gt3-form-login.php:35
+#: woocommerce/gt3-templates/gt3-form-login.php:54
+msgid "Login"
+msgstr ""
+
+#: woocommerce/gt3-templates/gt3-form-login.php:42
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/gt3-templates/gt3-form-login.php:46
+#: woocommerce/gt3-templates/gt3-form-login.php:97
+msgid "Password"
+msgstr ""
+
+#: woocommerce/gt3-templates/gt3-form-login.php:57
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/gt3-templates/gt3-form-login.php:61
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/gt3-templates/gt3-form-login.php:74
+#: woocommerce/gt3-templates/gt3-form-login.php:107
+msgid "Register"
+msgstr ""
+
+#: woocommerce/gt3-templates/gt3-form-login.php:83
+msgid "Username"
+msgstr ""
+
+#: woocommerce/gt3-templates/gt3-form-login.php:90
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/gt3-templates/gt3-recently-viewed.php:42
+msgid "Recently Viewed"
+msgstr ""
+
+#: woocommerce/gt3-templates/gt3-recently-viewed.php:43
+msgid "Clear All"
+msgstr ""
+
+#: woocommerce/gt3-templates/loop/orderby.php:11
+msgid "Default sorting"
+msgstr ""
+
+#: woocommerce/gt3-templates/loop/orderby.php:12
+msgid "Sort by popularity"
+msgstr ""
+
+#: woocommerce/gt3-templates/loop/orderby.php:13
+msgid "Sort by average rating"
+msgstr ""
+
+#: woocommerce/gt3-templates/loop/orderby.php:14
+msgid "Sort by newness"
+msgstr ""
+
+#: woocommerce/gt3-templates/loop/orderby.php:15
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: woocommerce/gt3-templates/loop/orderby.php:16
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: woocommerce/gt3-templates/loop/orderby.php:21
+msgid "Sort by:"
+msgstr ""
+
+#: woocommerce/gt3-templates/loop/product-show.php:25
+msgid "Show:"
+msgstr ""
+
+#: woocommerce/gt3-templates/loop/product-show.php:27
+msgid "orderby"
+msgstr ""
+
+#: woocommerce/gt3-templates/pagination.php:28
+#: woocommerce/loop/pagination.php:43
+msgid "View the Last Page"
+msgstr ""
+
+#: woocommerce/gt3-templates/pagination.php:28
+#: woocommerce/loop/pagination.php:43
+msgid "View Page "
+msgstr ""
+
+#: woocommerce/gt3-templates/pagination.php:29
+#: woocommerce/loop/pagination.php:44
+msgid "of "
+msgstr ""
+
+#: woocommerce/gt3-templates/pagination.php:56
+#: woocommerce/loop/pagination.php:63
+msgid "View All"
+msgstr ""
+
+#: woocommerce/product-searchform.php:25
+msgid "Search products&hellip;"
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:34 woocommerce/wooinit.php:1049
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:37 woocommerce/wooinit.php:1051
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:64
+msgid "There are no reviews yet."
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:71
+#: woocommerce/single-product-reviews.php:78
+msgid "Add Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:80
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Email"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:123
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:127
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:128
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:129
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:131
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:132
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:133
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:137
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:144
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:30
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:30
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:34
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:36
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:49
+msgid "Share:"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:41
+msgid "Write a review"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:43
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/related.php:34
+msgid "Related"
+msgstr ""
+
+#: woocommerce/wooinit.php:73
+msgid "Out Of Stock"
+msgstr ""
+
+#: woocommerce/wooinit.php:530
+msgid "Size Guide"
+msgstr ""
+
+#: woocommerce/wooinit.php:613
+msgid "PREV"
+msgstr ""
+
+#: woocommerce/wooinit.php:635
+msgid "NEXT"
+msgstr ""
+
+#: woocommerce/wooinit.php:678
+msgid "Hot Product"
+msgstr ""
+
+#: woocommerce/wooinit.php:679
+msgid "Check for Hot Product"
+msgstr ""
+
+#: woocommerce/wooinit.php:683
+msgid "New Product"
+msgstr ""
+
+#: woocommerce/wooinit.php:684
+msgid "Check for New Product"
+msgstr ""
+
+#: woocommerce/wooinit.php:703
+msgid "New"
+msgstr ""
+
+#: woocommerce/wooinit.php:729
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/wooinit.php:735
+msgid "Hot"
+msgstr ""
+
+#: woocommerce/wooinit.php:747
+msgid "an option"
+msgstr ""
+
+#: woocommerce/wooinit.php:749
+msgid "Choose "
+msgstr ""
+
+#: woocommerce/wooinit.php:887
+msgid "Fullscreen"
+msgstr ""
+
+#: woocommerce/wooinit.php:903
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: woocommerce/wooinit.php:1038
+msgid "Quick View"
+msgstr ""
+
+#: woocommerce/wooinit.php:1095
+msgid "Remove all"
+msgstr ""
+
+#: woocommerce/wooinit.php:1140
+msgid "Filter"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Ewebot"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://livewp.site/wp/md/ewebot/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"GT3themes team presents absolutely fresh and powerful WordPress theme. It "
+"combines new technologies and functional design that helps to showcase your "
+"content in better way. This WordPress theme is developed with attention to "
+"details, so you can create effective presentation of a website easily. Enjoy "
+"building web pages with our product!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "GT3themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://gt3themes.com"
+msgstr ""

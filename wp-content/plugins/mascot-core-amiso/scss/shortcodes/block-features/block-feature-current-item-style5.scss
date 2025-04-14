@@ -1,0 +1,60 @@
+@import "../../bootstrap-loader";
+
+// Feature Current Style5
+.feature-current-item-style5 {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+  @include transition(all 500ms ease);
+  .inner-box {
+    position: relative;
+    display: block;
+    border: 1px solid #322d3b;
+    padding: 30px;
+    background-color: var(--theme-color2);
+    @include transition(all 500ms ease);
+    .icon-box {
+      position: relative;
+      display: block;
+      .icon {
+        i {
+          position: relative;
+          display: inline-block;
+          font-size: 64px;
+          color: var(--theme-color1);
+          line-height: 1;
+          margin-bottom: 15px;
+          line-height: 1;
+        }
+      }
+    }
+    .feature-title {
+      margin-bottom: 20px;
+      margin-top: 0;
+      color: #fff;
+      @include transition(all 500ms ease);
+    }
+    .feature-details {
+      font-size: 14px;
+      color: #aea8b9;
+      line-height: 24px;
+      @include transition(all 500ms ease);
+    }
+    &:hover {
+      @include transform(translateY(-10px));
+      border: 1px solid #f0eeee;
+      background-color: #fff;
+      .icon-box {
+        .icon {
+          color: var(--theme-color1);
+        }
+      }
+      .feature-title {
+        color: #1b1525;
+      }
+      .feature-details {
+        color: var(--body-tex);
+      }
+    }
+  }
+}

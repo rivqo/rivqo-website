@@ -1,0 +1,70 @@
+/*
+ * Shortcode: opening-hours.scss
+ * -----------------------------------------------
+*/
+.opening-hours,
+.working-hours {
+  list-style: none;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .opening-hours,
+.working-hours {
+    transition: none;
+  }
+}
+.opening-hours li,
+.working-hours li {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  margin: 10px 0;
+  transition: all 0.3s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .opening-hours li,
+.working-hours li {
+    transition: none;
+  }
+}
+.opening-hours li:last-child,
+.working-hours li:last-child {
+  border-bottom: 0;
+}
+.opening-hours li .day,
+.working-hours li .day {
+  transition: all 0.3s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .opening-hours li .day,
+.working-hours li .day {
+    transition: none;
+  }
+}
+.opening-hours li .time,
+.working-hours li .time {
+  transition: all 0.3s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .opening-hours li .time,
+.working-hours li .time {
+    transition: none;
+  }
+}
+.opening-hours li.active,
+.working-hours li.active {
+  font-weight: var(--body-font-bold);
+}
+.opening-hours.border-light li,
+.working-hours.border-light li {
+  border-bottom-color: #ddd;
+}
+.opening-hours.border-dark li,
+.working-hours.border-dark li {
+  border-bottom-color: #333;
+}
+
+.widget .opening-hours li *,
+.widget .working-hours li * {
+  line-height: var(--line-height-widget-li);
+}

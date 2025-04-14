@@ -1,0 +1,30 @@
+@import "../../bootstrap-loader";
+@import "project-skin-common";
+
+.project-skin-flat {
+  position: relative;
+  .thumb {
+    img {
+      @include transform(scale(1.1));
+      @include transition(transform .5s cubic-bezier(0.18, 0.71, 0.58, 1));
+      will-change: transform;
+    }
+    overflow: hidden;
+    position: relative;
+    .overlay {
+    }
+  }
+  .details {
+    padding: 20px 30px 30px 0;
+    .title {
+      margin-top: 0;
+    }
+  }
+  &:hover {
+    .thumb {
+      img {
+        @include transform(scale(1.1) translateX(12px));
+      }
+    }
+  }
+}

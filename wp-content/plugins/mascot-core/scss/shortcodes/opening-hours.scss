@@ -1,0 +1,47 @@
+@import "../bootstrap-loader";
+
+/*
+ * Shortcode: opening-hours.scss
+ * -----------------------------------------------
+*/
+.opening-hours,
+.working-hours {
+  list-style: none;
+  padding: 0;
+  @include transition(all 0.3s ease);
+
+  li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    margin: 10px 0;
+    @include transition(all 0.3s ease);
+    &:last-child {
+      border-bottom: 0;
+    }
+    .day {
+      @include transition(all 0.3s ease);
+    }
+    .time {
+      @include transition(all 0.3s ease);
+    }
+    &.active {
+      font-weight: var(--body-font-bold);
+    }
+  }
+  &.border-light li {
+    border-bottom-color: #ddd;
+  }
+  &.border-dark li {
+    border-bottom-color: #333;
+  }
+}
+.widget {
+  .opening-hours,
+  .working-hours {
+    li {
+      * {
+        line-height: var(--line-height-widget-li);
+      }
+    }
+  }
+}

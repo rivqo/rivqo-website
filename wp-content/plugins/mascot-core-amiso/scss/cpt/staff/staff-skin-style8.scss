@@ -1,0 +1,78 @@
+@import "../../bootstrap-loader";
+
+/*
+ * Shortcode: staff.scss
+ * -----------------------------------------------
+*/
+.tm-sc-staff {
+	.team-item-skin-style8{
+		box-shadow: none !important;
+		padding-bottom: 15px;
+		@include media-breakpoint-down(xl) {
+			padding-bottom: 30px;
+		}
+		.staff-header{
+			background-color: transparent;
+			border-radius: 50%;
+			position: relative;
+			overflow: hidden;
+			max-width: 90%;
+			margin: 0 auto;
+			.social-wrapper{
+				background-color: rgba(30, 30, 35, 0.9);
+				border-radius: 50%;
+				bottom: 0;
+				left: 0;
+				opacity: 0;
+				position: absolute;
+				right: 0;
+				top: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				@include transition(all .3s ease);
+				-webkit-transform: scale(0);
+				transform: scale(0);
+				.styled-icons{
+					margin-bottom: -75px;
+					@include transition(all 600ms ease);
+					li {
+						margin-bottom: 0;
+						a{
+							background: var(--theme-color1);
+							i {
+								color: #fff;
+							}
+							border-radius: 50%;
+							&:hover{
+							}
+						}
+					}
+				}
+			}
+		}
+		&:hover{
+			.staff-header {
+				.social-wrapper {
+					opacity: 1;
+					-webkit-transform: scale(1.1);
+					transform: scale(1.1);
+					.styled-icons {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+		.staff-content{
+			background-color: transparent !important;
+			text-align: center;
+			margin-top: 20px;
+			.name {
+				margin: 0;
+			}
+			.speciality{
+				color: #70695f;
+			}
+		}
+	}
+}

@@ -1,0 +1,90 @@
+@import "../../bootstrap-loader";
+@import "blog-common";
+
+
+.blog-skin-style2 {
+  overflow: hidden;
+  position: relative;
+  border-radius: 0;
+  @include box-shadow( 0px 0 15px rgba(45, 45, 45, 0.08) );
+  @include transition(all .3s ease);
+  .post-thumb {
+    .thumb{
+      img{
+        @include scale(1);
+        @include transition(all .4s ease-in-out);
+      }
+    }
+  }
+  .entry-header{
+    position: relative;
+    .post-single-meta {
+      text-align: center;
+      top: 30px;
+      border-radius: 0;
+      font-size: 16px;
+      font-weight: 900;
+      height: 70px;
+      left: 30px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      width: 70px;
+      background: var(--theme-color2);
+      span {
+        display: block;
+        color: #fff;
+        &.year {
+          display: none;
+        }
+      }
+    }
+  }
+  .entry-content{
+    box-shadow: none;
+    padding: 30px;
+    background-color: #fff;
+    .entry-meta{
+      border-top: none;
+      margin-bottom: 10px;
+      li {
+        i {
+          color: var(--theme-color1);
+        }
+      }
+    }
+    .entry-title{
+      margin-top: 0;
+      margin-bottom: 20px;
+      a{
+        &:hover{
+          color: var(--hover-theme-color);
+        }
+      }
+    }
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+  .bottom-boder-line{
+    background-color: #fff;
+    border-radius: 3px;
+    height: 4px;
+    @include transition(all .3s ease);
+  }
+  &:hover{
+    .post-thumb {
+      .thumb {
+        img {
+          @include scale(1.1);
+        }
+      }
+    }
+    .bottom-boder-line{
+      background-color: var(--theme-color1);
+      @include transition(all .3s ease);
+    }
+  }
+}

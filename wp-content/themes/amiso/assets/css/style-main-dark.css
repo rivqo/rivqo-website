@@ -1,0 +1,160 @@
+/* --------------------------------------
+$Author: ThemeMascot
+$URL: https://themeforest.net/user/ThemeMascot
+----------------------------------------- */
+/*
+ * Dark.scss
+ * -----------------------------------------------
+*/
+.dark {
+  /*Bacground Color*/
+  /*Bacground Transparent Color*/
+  /*Text Color*/
+  /*Layer Overlay*/
+  /*Custom Theme Styles*/
+  /*Blog Style*/
+  /* boxed-layout */
+}
+body .dark {
+  background-color: #1e1e1e !important;
+}
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark .h1,
+.dark .h2,
+.dark .h3,
+.dark .h4,
+.dark .h5,
+.dark .h6 {
+  color: #FCFCFC;
+}
+.dark h1 a,
+.dark h2 a,
+.dark h3 a,
+.dark h4 a,
+.dark h5 a,
+.dark h6 a,
+.dark .h1 a,
+.dark .h2 a,
+.dark .h3 a,
+.dark .h4 a,
+.dark .h5 a,
+.dark .h6 a {
+  color: #FCFCFC;
+}
+.dark .divider-dark {
+  background-color: #252525 !important;
+}
+.dark .bg-deep {
+  background-color: #1a1a1a !important;
+}
+.dark .bg-light {
+  background-color: #202020 !important;
+}
+.dark .bg-lighter {
+  background-color: #262626 !important;
+}
+.dark .bg-lightest {
+  background-color: #333333 !important;
+}
+.dark .bg-white-light {
+  background-color: #333 !important;
+}
+.dark .bg-deep-transparent {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.dark .bg-light-transparent {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.dark .bg-lighter-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.dark .bg-lightest-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dark .bg-very-lightest-transparent {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.dark .text-black-333 {
+  color: #FCFCFC !important;
+}
+.dark .text-white-light {
+  color: #4d4d4d !important;
+}
+.dark .layer-overlay.overlay-light::before {
+  background-color: rgba(33, 33, 33, 0.8);
+}
+.dark .layer-overlay.overlay-lighter::before {
+  background-color: rgba(33, 33, 33, 0.7);
+}
+.dark .layer-overlay.overlay-deep::before {
+  background-color: rgba(33, 33, 33, 0.9);
+}
+.dark hr {
+  border-color: #333;
+}
+.dark .border-1px {
+  border: 1px solid #333;
+}
+.dark .border-1px {
+  border-color: #333 !important;
+}
+.dark .border-2px {
+  border-color: #333 !important;
+}
+.dark .border-3px,
+.dark .title-border {
+  border-color: #333 !important;
+}
+.dark .border-4px {
+  border-color: #333 !important;
+}
+.dark .border-5px {
+  border-color: #333 !important;
+}
+.dark .owl-carousel.owl-nav-top .owl-controls .owl-nav .owl-prev,
+.dark .owl-carousel.owl-nav-top .owl-controls .owl-nav .owl-next {
+  background: #404040 !important;
+}
+.dark .separator::before,
+.dark .separator::after {
+  border-bottom: 1px solid #333;
+}
+.dark .register-form .form-control {
+  background: rgba(0, 0, 0, 0.2);
+  border-color: #333;
+}
+.dark .login-form {
+  border: 1px solid #333;
+}
+.dark .form-control {
+  background: rgba(0, 0, 0, 0.2);
+  border-color: #333;
+}
+.dark .header-nav .header-nav-wrapper.scroll-to-fixed-fixed.scroll-to-fixed-fixed {
+  border-bottom-color: #444;
+}
+.dark .nav-tabs > li > a:hover,
+.dark .nav-tabs > li > a:focus {
+  color: #808080;
+}
+.dark .nav-tabs > li > a:hover,
+.dark .nav-tabs > li.active a {
+  border-color: #333;
+}
+.dark .nav-sidebar li {
+  background-color: #242424 !important;
+}
+.dark .blog-posts .post {
+  background-color: #282828 !important;
+}
+.dark .header-nav .header-nav-wrapper .menuzord {
+  background: transparent;
+}
+.dark.tm-boxed-layout section {
+  background: #202020;
+}

@@ -1,0 +1,79 @@
+@import "../../bootstrap-loader";
+
+/*
+ * Shortcode: staff.scss
+ * -----------------------------------------------
+*/
+.tm-sc-staff {
+  .team-item-skin-style2 {
+    position: relative;
+    text-align: center;
+    @include transition(all 300ms ease-in-out 0s);
+    .team-content {
+      background-color: #fff;
+      border: 1px solid rgba(230, 230, 230, .8);
+      padding: 30px;
+      position: relative;
+      width: 80%;
+      margin: -80px auto 0;
+      @include transition(all .3s ease 0s);
+      @include media-breakpoint-down(lg) {
+        padding: 20px;
+      }
+      .name {
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+    }
+    .team-thumb {
+      overflow: hidden;
+      img {
+        @include scale(1);
+        @include transition(all .4s ease-in-out);
+      }
+    }
+    &:hover {
+      .team-thumb {
+        img {
+          @include scale(1.1);
+        }
+      }
+    }
+    .team-information {
+      margin-bottom: 20px;
+    }
+    .team-name {
+      line-height: 24px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .designation {
+      font-size: 16px;
+      font-weight: 660;
+    }
+    .styled-icons {
+      &.icon-team-list {
+        li {
+          a {
+            background-color: #f7f7fa;
+            border: 1px solid transparent;
+            color: var(--theme-color2);
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            @include transition(all 300ms ease-in-out 0s);
+            &:hover {
+              color: #fff;
+              background: var(--theme-color1);
+            }
+          }
+        }
+      }
+    }
+    &:hover {
+      .team-content {
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.service-skin-style5 .tm-service .thumb {
+  overflow: hidden;
+}
+.service-skin-style5 .tm-service .thumb img {
+  width: 100%;
+  transition: all 0.5s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .service-skin-style5 .tm-service .thumb img {
+    transition: none;
+  }
+}
+.service-skin-style5 .tm-service .content {
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(26, 29, 72, 0.07);
+  display: flex;
+  padding: 38px 40px 38px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .service-skin-style5 .tm-service .content {
+    transition: none;
+  }
+}
+.service-skin-style5 .tm-service .content:after {
+  content: "";
+  height: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  transition: all 0.3s;
+  background-color: var(--theme-color1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .service-skin-style5 .tm-service .content:after {
+    transition: none;
+  }
+}
+.service-skin-style5 .tm-service .content .icon {
+  margin-left: 30px;
+  line-height: 1;
+}
+.service-skin-style5 .tm-service .content .icon .icon-img {
+  width: auto;
+  transition: all 0.3s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .service-skin-style5 .tm-service .content .icon .icon-img {
+    transition: none;
+  }
+}
+.service-skin-style5 .tm-service .content .icon i {
+  font-size: 52px;
+  color: var(--theme-color1);
+  transition: all 0.3s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .service-skin-style5 .tm-service .content .icon i {
+    transition: none;
+  }
+}
+.service-skin-style5 .tm-service .content .title {
+  margin: 0;
+  text-transform: uppercase;
+}
+.service-skin-style5 .tm-service:hover .thumb img {
+  transform: scale(1.1);
+}
+.service-skin-style5 .tm-service:hover .content:after {
+  height: 100%;
+}
+.service-skin-style5 .tm-service:hover .content .icon .symbol-icon {
+  filter: brightness(0.25);
+}
+.service-skin-style5 .tm-service:hover .content .icon i {
+  color: #fff;
+}
+.service-skin-style5 .tm-service:hover .content .title a {
+  color: #fff;
+}

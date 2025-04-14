@@ -1,0 +1,223 @@
+.team-current-theme6 {
+  background: #fff;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0px 10px 30px 0px rgba(26, 29, 72, 0.07);
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-current-theme6 {
+    transition: none;
+  }
+}
+.team-current-theme6 .team-thumb {
+  position: relative;
+}
+.team-current-theme6 .team-thumb .thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.team-current-theme6 .team-thumb .thumb::before {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  opacity: 0;
+}
+.team-current-theme6 .team-thumb .thumb img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-current-theme6 .team-thumb .thumb img {
+    transition: none;
+  }
+}
+.team-current-theme6 .team-thumb .team-social {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li {
+  margin-bottom: 0;
+}
+.team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li a {
+  background: var(--theme-color1);
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border: none;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li a {
+    transition: none;
+  }
+}
+.team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li a:hover {
+  color: #fff;
+}
+.team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(1) {
+  position: absolute;
+  opacity: 0;
+  right: -10px;
+  bottom: -20px;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(1) {
+    transition: none;
+  }
+}
+.team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(1) a {
+  background: #3457F1;
+}
+.team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(2) {
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  left: 0;
+  bottom: -40px;
+  transition: all 0.3s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(2) {
+    transition: none;
+  }
+}
+.team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(2) a {
+  background: #4EBEFF;
+}
+.team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(3) {
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  bottom: -20px;
+  transition: all 0.3s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(3) {
+    transition: none;
+  }
+}
+.team-current-theme6 .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(3) a {
+  background: #EF3230;
+}
+.team-current-theme6 .team-thumb img {
+  border-radius: 50%;
+}
+.team-current-theme6 .team-content .team-information {
+  margin-top: 30px;
+}
+.team-current-theme6 .team-content .team-information .name {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.team-current-theme6:hover {
+  background: var(--theme-color2);
+}
+.team-current-theme6:hover .staff-content .name {
+  color: #fff;
+}
+.team-current-theme6:hover .staff-content .speciality {
+  color: #bbbbbb;
+}
+.team-current-theme6:hover .team-thumb .thumb::before {
+  -webkit-animation: circle 0.75s;
+  animation: circle 0.75s;
+}
+.team-current-theme6:hover .team-thumb .thumb img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(1) {
+  right: 40px;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  opacity: 1;
+  transition: all 400ms ease-in-out 0s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(1) {
+    transition: none;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(1) {
+    right: 30px !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(1) {
+    right: 60px;
+    bottom: -5px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(1) {
+    right: 120px;
+    bottom: -10px;
+  }
+}
+.team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(2) {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -20px;
+  opacity: 1;
+  transition: all 500ms ease-in-out 0s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(2) {
+    transition: none;
+  }
+}
+.team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(3) {
+  position: absolute;
+  left: 40px;
+  bottom: 0;
+  opacity: 1;
+  transition: all 400ms ease-in-out 0s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(3) {
+    transition: none;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(3) {
+    left: 30px !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(3) {
+    left: 60px;
+    bottom: -5px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .team-current-theme6:hover .team-thumb .team-social .styled-icons.icon-team-list li:nth-child(3) {
+    left: 120px;
+    bottom: -10px;
+  }
+}
+.team-current-theme6:hover img {
+  border-radius: 50%;
+}

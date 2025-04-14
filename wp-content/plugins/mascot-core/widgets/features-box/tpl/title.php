@@ -1,0 +1,1 @@
+<<?php echo esc_attr( $title_tag );?> class="title feature-title"><?php echo esc_html( $title );?></<?php echo esc_attr( $title_tag );?>>

@@ -1,0 +1,1 @@
+<div class="element"><?php get_search_form(); ?></div>

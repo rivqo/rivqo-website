@@ -1,0 +1,80 @@
+/*
+ * Shortcode: staff.scss
+ * -----------------------------------------------
+*/
+.tm-sc-staff .team-item-skin-style8 {
+  box-shadow: none !important;
+  padding-bottom: 15px;
+}
+@media (max-width: 1199.98px) {
+  .tm-sc-staff .team-item-skin-style8 {
+    padding-bottom: 30px;
+  }
+}
+.tm-sc-staff .team-item-skin-style8 .staff-header {
+  background-color: transparent;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.tm-sc-staff .team-item-skin-style8 .staff-header .social-wrapper {
+  background-color: rgba(30, 30, 35, 0.9);
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .tm-sc-staff .team-item-skin-style8 .staff-header .social-wrapper {
+    transition: none;
+  }
+}
+.tm-sc-staff .team-item-skin-style8 .staff-header .social-wrapper .styled-icons {
+  margin-bottom: -75px;
+  transition: all 600ms ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tm-sc-staff .team-item-skin-style8 .staff-header .social-wrapper .styled-icons {
+    transition: none;
+  }
+}
+.tm-sc-staff .team-item-skin-style8 .staff-header .social-wrapper .styled-icons li {
+  margin-bottom: 0;
+}
+.tm-sc-staff .team-item-skin-style8 .staff-header .social-wrapper .styled-icons li a {
+  background: var(--theme-color1);
+  border-radius: 50%;
+}
+.tm-sc-staff .team-item-skin-style8 .staff-header .social-wrapper .styled-icons li a i {
+  color: #fff;
+}
+.tm-sc-staff .team-item-skin-style8:hover .staff-header .social-wrapper {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.tm-sc-staff .team-item-skin-style8:hover .staff-header .social-wrapper .styled-icons {
+  margin-bottom: 0;
+}
+.tm-sc-staff .team-item-skin-style8 .staff-content {
+  background-color: transparent !important;
+  text-align: center;
+  margin-top: 20px;
+}
+.tm-sc-staff .team-item-skin-style8 .staff-content .name {
+  margin: 0;
+}
+.tm-sc-staff .team-item-skin-style8 .staff-content .speciality {
+  color: #70695f;
+}
