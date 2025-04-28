@@ -25,7 +25,7 @@ import {
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <SplashScreen />
+      {/* <SplashScreen /> */}
       <NavigationProgress />
       <ScrollToTop />
       <main className="flex-1">
