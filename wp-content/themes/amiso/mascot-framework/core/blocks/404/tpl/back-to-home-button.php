@@ -1,1 +1,0 @@
-<a class="<?php echo esc_attr( apply_filters( 'amiso_404_back_to_home_btn', 'btn btn-theme-colored1 mt-10 btn-back-to-home') ); ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo esc_html( $back_to_home_button_label );?></a>

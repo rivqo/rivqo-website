@@ -1,2 +1,0 @@
-<div class="preloading-img <?php if ( $page_preloading_image_animate ) echo esc_attr("preloading-animate"); ?>" style="background-image:  url(<?php echo esc_url( $page_preloading_image ) ?>); background-size: <?php echo esc_attr( $page_preloading_image_width ) ?>px auto; width: <?php echo esc_attr( $page_preloading_image_width ) ?>px; height: <?php echo esc_attr( $page_preloading_image_width ) ?>px;">
-</div>
