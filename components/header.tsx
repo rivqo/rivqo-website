@@ -61,7 +61,7 @@ export default function Header() {
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                    <ListItem href="/products/veezocard" title="VeezoCard">
+                    <ListItem href="https://veezocard.com" target="_blank" title="VeezoCard">
                       Digital business card and WhatsApp store builder
                     </ListItem>
                     <ListItem href="/products/swiifta" title="Swiifta">
@@ -97,7 +97,7 @@ export default function Header() {
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
-              <NavigationMenuItem>
+              {/* <NavigationMenuItem className="cursor-pointer">
                 <Link href="/company" legacyBehavior passHref>
                   <NavigationMenuLink
                     className={cn(
@@ -108,8 +108,8 @@ export default function Header() {
                     Company
                   </NavigationMenuLink>
                 </Link>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
+              </NavigationMenuItem> */}
+              <NavigationMenuItem className="cursor-pointer">
                 <Link href="/contact" legacyBehavior passHref>
                   <NavigationMenuLink
                     className={cn(

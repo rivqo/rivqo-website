@@ -1,6 +1,7 @@
 import ContactForm from "@/components/contact-form"
 import MinimalistPattern from "@/components/minimalist-pattern"
 import { Mail, MapPin, Phone } from "lucide-react"
+import FadeIn from "@/components/animations/fade-in"
 
 export default function ContactPage() {
   return (
@@ -12,10 +13,14 @@ export default function ContactPage() {
           <MinimalistPattern className="absolute inset-0 opacity-10" />
           <div className="container relative px-4 md:px-6 z-10">
             <div className="flex flex-col mt-20 md:mt-10 items-center justify-center text-center max-w-3xl mx-auto space-y-4">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">Get in Touch</h1>
-              <p className="max-w-[600px] text-white/90 md:text-xl">
-                Have questions about our products or services? We'd love to hear from you.
-              </p>
+              <FadeIn direction="down" duration={0.7}>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">Get in Touch</h1>
+              </FadeIn>
+              <FadeIn delay={0.2} duration={0.7}>
+                <p className="max-w-[600px] text-white/90 md:text-xl">
+                  Have questions about our products or services? We'd love to hear from you.
+                </p>
+              </FadeIn>
             </div>
           </div>
         </section>
@@ -23,6 +28,7 @@ export default function ContactPage() {
         {/* Contact Information */}
         <section className="relative w-full py-20 md:py-32">
           <MinimalistPattern className="absolute inset-0 opacity-5" />
+          <FadeIn>
           <div className="container relative px-4 md:px-6 z-10">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div className="space-y-8">
@@ -93,6 +99,7 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
+          </FadeIn>
         </section>
       </main>
     </div>

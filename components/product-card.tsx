@@ -6,9 +6,10 @@ interface ProductCardProps {
   title: string
   description: string
   icon: string
+  image?: string
 }
 
-export default function ProductCard({ title, description, icon }: ProductCardProps) {
+export default function ProductCard({ title, description, icon, image = '' }: ProductCardProps) {
   const getIcon = () => {
     switch (icon) {
       case "credit-card":
@@ -25,6 +26,11 @@ export default function ProductCard({ title, description, icon }: ProductCardPro
   return (
     <Card className="flex flex-col h-full transition-all duration-500 hover:shadow-lg hover:border-[#3EBA9E]/50 group">
       <CardHeader>
+        {image && (
+          <div className="relative h-48 w-full overflow-hidden">
+            <img src={image} alt={title} className="object-cover" />
+          </div>
+        )}
         <div className="mb-2 transition-transform duration-500 transform group-hover:scale-110 group-hover:rotate-3">
           {getIcon()}
         </div>

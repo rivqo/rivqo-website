@@ -59,7 +59,7 @@ export default function Home() {
             <div className="flex flex-col items-start md:items-center justify-center text-center max-w-3xl mx-auto space-y-8">
               <FadeIn direction="down" duration={0.7}>
                 <h1 className="text-4xl font-bold text-left md:text-center tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white">
-                  Building impactful software for African growth
+                  Building impactful software for impactful people
                 </h1>
               </FadeIn>
               <FadeIn delay={0.2} duration={0.7}>

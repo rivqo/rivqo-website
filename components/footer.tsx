@@ -129,7 +129,7 @@ export default function Footer() {
                   href="mailto:info@rivqo.com"
                   className="text-gray-500 hover:text-[#00664E]  py-1 rounded-md transition-colors"
                 >
-                  info@rivqo.com
+                  ola@rivqo.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -138,7 +138,7 @@ export default function Footer() {
                   href="tel:+2341234567890"
                   className="text-gray-500 hover:text-[#00664E]  py-1 rounded-md transition-colors"
                 >
-                  +234 123 456 7890
+                  +234 901 725 7294
                 </a>
               </li>
             </ul>
@@ -146,7 +146,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-500">© {new Date().getFullYear()} Rivqo. All rights reserved.</p>
+            <p className="text-sm text-gray-500">© {new Date().getFullYear()} Rivqo Digital LTD. All rights reserved.</p>
             <div className="flex space-x-6">
               <Link
                 href="/privacy"
