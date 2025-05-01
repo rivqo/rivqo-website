@@ -75,7 +75,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/products/noctua"
+                  href="https://noctua.rivqo.com"
                   className="text-gray-500 hover:text-[#00664E]  py-1 rounded-md transition-colors"
                 >
                   Noctua

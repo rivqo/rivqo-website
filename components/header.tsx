@@ -70,7 +70,7 @@ export default function Header() {
                     <ListItem href="https://peakcv.rivqo.com" title="peakCV">
                       Create simple, professional resumes with ease
                     </ListItem>
-                    <ListItem href="/products/noctua" title="Noctua">
+                    <ListItem href="https://noctua.rivqo.com" title="Noctua">
                       Complete school management system
                     </ListItem>
                   </ul>
