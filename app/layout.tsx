@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description:
     "Rivqo is a software company aimed at building impactful software for great people to foster growth. Our products include VeezoCard, Swiifta, Resume Builder, and Noctua.",
   icons: {
-    icon: "/riv-fac.png",
+    icon: "/images/riv-fac.png",
   },
   openGraph: {
     type: "website",
