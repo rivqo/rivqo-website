@@ -10,6 +10,13 @@ import PageTransition from "@/components/page-transition"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://rivqo.com'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+    },
+  },
   title: "Rivqo - Building Impactful Software for Impactful People",
   description:
     "Rivqo is a software company aimed at building impactful software for great people to foster growth. Our products include VeezoCard, Swiifta, Resume Builder, and Noctua.",
