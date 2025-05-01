@@ -13,10 +13,30 @@ export const metadata: Metadata = {
   title: "Rivqo - Building Impactful Software for Impactful People",
   description:
     "Rivqo is a software company aimed at building impactful software for great people to foster growth. Our products include VeezoCard, Swiifta, Resume Builder, and Noctua.",
-    "icons": {
-      "icon": "/images/favicon.ico",
-    }
-}
+  openGraph: {
+    type: "website",
+    url: "https://rivqo.com/",
+    title: "Rivqo - Building Impactful Software for Impactful People",
+    description:
+      "Rivqo is a software company aimed at building impactful software for great people to foster growth. Our products include VeezoCard, Swiifta, Resume Builder, and Noctua.",
+    images: [
+      {
+        url: "/images/preview-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Rivqo Preview Image",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rivqo - Building Impactful Software for Impactful People",
+    description:
+      "Rivqo is a software company aimed at building impactful software for great people to foster growth. Our products include VeezoCard, Swiifta, Resume Builder, and Noctua.",
+    images: ["/images/preview-image.png"],
+    site: "@your_twitter_handle", // optional
+  },
+};
 
 export default function RootLayout({
   children,
