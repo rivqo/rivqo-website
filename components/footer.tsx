@@ -51,7 +51,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/products/veezocard"
+                  href="https://veezocard.com"
                   className="text-gray-500 hover:text-[#00664E]  py-1 rounded-md transition-colors"
                 >
                   VeezoCard
@@ -67,10 +67,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/products/resume-builder"
+                  href="https://peakcv.rivqo.com"
                   className="text-gray-500 hover:text-[#00664E]  py-1 rounded-md transition-colors"
                 >
-                  Resume Builder
+                  peakCV
                 </Link>
               </li>
               <li>

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   title: "Rivqo - Building Impactful Software for Impactful People",
   description:
-    "Rivqo is a software company aimed at building impactful software for great people to foster growth. Our products include VeezoCard, Swiifta, Resume Builder, and Noctua.",
+    "Rivqo is a software company aimed at building impactful software for great people to foster growth. Our products include VeezoCard, Noctua, peakCV, and Swiifta.",
   icons: {
     icon: "/images/riv-fac.png",
   },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     url: "https://rivqo.com/",
     title: "Rivqo - Building Impactful Software for Impactful People",
     description:
-      "Rivqo is a software company aimed at building impactful software for great people to foster growth. Our products include VeezoCard, Swiifta, Resume Builder, and Noctua.",
+      "Rivqo is a software company aimed at building impactful software for great people to foster growth. Our products include VeezoCard, Noctua, peakCV, and Swiifta.",
     images: [
       {
         url: "/images/preview-image.png",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rivqo - Building Impactful Software for Impactful People",
     description:
-      "Rivqo is a software company aimed at building impactful software for great people to foster growth. Our products include VeezoCard, Swiifta, Resume Builder, and Noctua.",
+      "Rivqo is a software company aimed at building impactful software for great people to foster growth. Our products include VeezoCard, Noctua, peakCV, and Swiifta.",
     images: ["/images/preview-image.png"],
     site: "@your_twitter_handle", // optional
   },

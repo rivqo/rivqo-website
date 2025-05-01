@@ -156,7 +156,7 @@ export default function Home() {
               </div>
               <div>
                 <ProductCard
-                  title="Resume Builder"
+                  title="peakCV"
                   description="Create simple, professional resumes with ease"
                   icon="file-text"
                 />

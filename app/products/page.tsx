@@ -29,7 +29,7 @@ export default function ProductsPage() {
               />
               <ProductCard title="Swiifta" description="Comprehensive bill payments API" icon="credit-card" />
               <ProductCard
-                title="Resume Builder"
+                title="peakCV"
                 description="Create simple, professional resumes with ease"
                 icon="file-text"
               />

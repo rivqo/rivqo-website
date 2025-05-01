@@ -67,7 +67,7 @@ export default function Header() {
                     <ListItem href="/products/swiifta" title="Swiifta">
                       Comprehensive bill payments API
                     </ListItem>
-                    <ListItem href="/products/resume-builder" title="Resume Builder">
+                    <ListItem href="https://peakcv.rivqo.com" title="peakCV">
                       Create simple, professional resumes with ease
                     </ListItem>
                     <ListItem href="/products/noctua" title="Noctua">
@@ -176,7 +176,7 @@ export default function Header() {
                 className="text-muted-foreground transition-colors duration-300 hover:text-[#3EBA9E]"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Resume Builder
+                peakCV
               </Link>
               <Link
                 href="/products/noctua"
