@@ -2,6 +2,7 @@ import ContactForm from "@/components/contact-form"
 import MinimalistPattern from "@/components/minimalist-pattern"
 import { Mail, MapPin, Phone } from "lucide-react"
 import FadeIn from "@/components/animations/fade-in"
+import FaqSection from "@/components/faq-section"
 
 export default function ContactPage() {
   return (
@@ -100,6 +101,29 @@ export default function ContactPage() {
             </div>
           </div>
           </FadeIn>
+        </section>
+
+        {/* FAQ */}
+        <section className="relative w-full pb-20 md:pb-28">
+          <div className="container relative px-4 md:px-6 z-10">
+            <FadeIn>
+              <div className="max-w-3xl mx-auto space-y-3 text-center mb-10">
+                <p className="text-sm font-semibold tracking-widest text-[#3EBA9E] uppercase">
+                  Before you write
+                </p>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-[#00664E]">
+                  Frequently asked questions
+                </h2>
+                <p className="text-gray-600 md:text-lg">
+                  Many answers are already here. If yours isn't, send a note above and we'll reply
+                  within one business day.
+                </p>
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.1} className="max-w-3xl mx-auto">
+              <FaqSection />
+            </FadeIn>
+          </div>
         </section>
       </main>
     </div>

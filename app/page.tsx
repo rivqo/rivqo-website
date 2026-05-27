@@ -1,14 +1,15 @@
 import { ArrowRight, ChevronRight } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import ProductCard from "@/components/product-card"
+import ProductShowcase from "@/components/product-showcase"
+import Testimonials from "@/components/testimonials"
+import FaqSection from "@/components/faq-section"
 import ClientLogos from "@/components/client-logos"
 import MinimalistPattern from "@/components/minimalist-pattern"
 import ContactForm from "@/components/contact-form"
 import FadeIn from "@/components/animations/fade-in"
 import StaggerChildren from "@/components/animations/stagger-children"
 import CountUp from "@/components/animations/count-up"
-import SplashScreen from "@/components/splash-screen"
 import NavigationProgress from "@/components/navigation-progress"
 import ScrollToTop from "@/components/scroll-to-top"
 import ParallaxSection from "@/components/parallax-section"
@@ -25,7 +26,6 @@ import {
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* <SplashScreen /> */}
       <NavigationProgress />
       <ScrollToTop />
       <main className="flex-1">
@@ -87,28 +87,38 @@ export default function Home() {
         </ParallaxSection>
 
         {/* Stats Section */}
-        {/* <section className="relative w-full py-12 md:py-16 bg-white">
+        <section className="relative w-full py-16 md:py-20 bg-white border-b border-gray-100">
           <div className="container px-4 md:px-6">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div className="space-y-2">
-                <CountUp end={4} suffix="+" className="text-4xl font-bold text-[#00664E]" />
-                <p className="text-gray-600">Products</p>
+            <FadeIn>
+              <div className="text-center mb-12">
+                <p className="text-sm font-semibold tracking-widest text-[#3EBA9E] uppercase mb-2">
+                  By the numbers
+                </p>
+                <h2 className="text-2xl md:text-3xl font-bold text-[#00664E] max-w-2xl mx-auto">
+                  Trusted by teams who care about results
+                </h2>
               </div>
-              <div className="space-y-2">
-                <CountUp end={50} suffix="+" className="text-4xl font-bold text-[#00664E]" />
-                <p className="text-gray-600">Clients</p>
+            </FadeIn>
+            <StaggerChildren className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center" staggerDelay={0.1}>
+              <div className="space-y-2 p-4 rounded-xl hover:bg-[#3EBA9E]/5 transition-colors">
+                <CountUp end={4} className="text-4xl md:text-5xl font-bold text-[#00664E]" />
+                <p className="text-gray-600 text-sm md:text-base">Live products</p>
               </div>
-              <div className="space-y-2">
-                <CountUp end={100} suffix="+" className="text-4xl font-bold text-[#00664E]" />
-                <p className="text-gray-600">Projects</p>
+              <div className="space-y-2 p-4 rounded-xl hover:bg-[#3EBA9E]/5 transition-colors">
+                <CountUp end={50} suffix="+" className="text-4xl md:text-5xl font-bold text-[#00664E]" />
+                <p className="text-gray-600 text-sm md:text-base">Businesses served</p>
               </div>
-              <div className="space-y-2">
-                <CountUp end={5} suffix="+" className="text-4xl font-bold text-[#00664E]" />
-                <p className="text-gray-600">Years Experience</p>
+              <div className="space-y-2 p-4 rounded-xl hover:bg-[#3EBA9E]/5 transition-colors">
+                <CountUp end={100} suffix="+" className="text-4xl md:text-5xl font-bold text-[#00664E]" />
+                <p className="text-gray-600 text-sm md:text-base">Projects shipped</p>
               </div>
-            </div>
+              <div className="space-y-2 p-4 rounded-xl hover:bg-[#3EBA9E]/5 transition-colors">
+                <CountUp end={5} suffix="+" className="text-4xl md:text-5xl font-bold text-[#00664E]" />
+                <p className="text-gray-600 text-sm md:text-base">Years building</p>
+              </div>
+            </StaggerChildren>
           </div>
-        </section> */}
+        </section>
 
         {/* Products Section with Parallax */}
         <ParallaxSection className="relative w-full py-20 md:py-32" speed={0.1} direction="up">
@@ -131,37 +141,22 @@ export default function Home() {
             <FadeIn>
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div className="space-y-2">
+                  <p className="text-sm font-semibold tracking-widest text-[#3EBA9E] uppercase">
+                    Our products
+                  </p>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#00664E]">
-                    Our Products
+                    Software built for African realities
                   </h2>
-                  <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    Innovative software solutions designed to solve real problems for Africans
+                  <p className="max-w-[700px] mx-auto text-gray-600 md:text-lg pt-2">
+                    Click any product to see the problem it solves, the people it serves, and the
+                    impact it delivers — no fluff.
                   </p>
                 </div>
               </div>
             </FadeIn>
-            <StaggerChildren className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12" staggerDelay={0.1}>
-              <div>
-                <ProductCard
-                  title="VeezoCard"
-                  description="Digital business card and WhatsApp store builder"
-                  icon="credit-card"
-                />
-              </div>
-              <div>
-                <ProductCard title="Noctua" description="Complete school management system" icon="school" />
-              </div>
-              <div>
-                <ProductCard title="Swiifta" description="Comprehensive bill payments API" icon="credit-card" />
-              </div>
-              <div>
-                <ProductCard
-                  title="peakCV"
-                  description="Create simple, professional resumes with ease"
-                  icon="file-text"
-                />
-              </div>
-            </StaggerChildren>
+            <FadeIn delay={0.15}>
+              <ProductShowcase />
+            </FadeIn>
           </div>
         </ParallaxSection>
 
@@ -320,24 +315,62 @@ export default function Home() {
           </div>
         </ParallaxSection>
 
-        {/* Client Logos */}
+        {/* Testimonials Section */}
         <section className="relative w-full py-20 md:py-32 bg-gray-50">
           <MinimalistPattern className="absolute inset-0 opacity-5" />
           <div className="container relative px-4 md:px-6 z-10">
             <FadeIn>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter text-[#00664E]">
+                  <p className="text-sm font-semibold tracking-widest text-[#3EBA9E] uppercase">
+                    What clients say
+                  </p>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-[#00664E]">
                     Trusted by businesses across Africa
                   </h2>
+                  <p className="max-w-[600px] mx-auto text-gray-600 md:text-lg pt-2">
+                    Real teams, real outcomes. Here's what they say about working with Rivqo.
+                  </p>
                 </div>
               </div>
             </FadeIn>
-            <FadeIn delay={0.2}>
+            <FadeIn delay={0.15}>
+              <Testimonials />
+            </FadeIn>
+            <FadeIn delay={0.3} className="mt-16 pt-12 border-t border-gray-200">
+              <p className="text-center text-sm text-gray-500 mb-6">
+                Powering teams of every size
+              </p>
               <ClientLogos />
             </FadeIn>
           </div>
         </section>
+
+        {/* FAQ Section */}
+        <ParallaxSection className="relative w-full py-20 md:py-28" speed={0.1} direction="up">
+          <MinimalistPattern className="absolute inset-0 opacity-5" />
+          <div className="container relative px-4 md:px-6 z-10">
+            <FadeIn>
+              <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+                <div className="space-y-2">
+                  <p className="text-sm font-semibold tracking-widest text-[#3EBA9E] uppercase">
+                    Frequently asked
+                  </p>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-[#00664E]">
+                    Questions? We have answers.
+                  </h2>
+                  <p className="max-w-[600px] mx-auto text-gray-600 md:text-lg pt-2">
+                    Can't find what you're looking for? Reach out below and we'll get back within
+                    one business day.
+                  </p>
+                </div>
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.15} className="max-w-3xl mx-auto">
+              <FaqSection />
+            </FadeIn>
+          </div>
+        </ParallaxSection>
 
         {/* Contact Form Section */}
         <section className="relative w-full py-20 md:py-32">

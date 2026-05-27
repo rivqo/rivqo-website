@@ -54,11 +54,22 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+        <a href="#main-content" className="skip-link">
+          Skip to content
+        </a>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          forcedTheme="light"
+          enableSystem={false}
+          disableTransitionOnChange
+        >
           <Header />
-          <PageTransition>{children}</PageTransition>
+          <div id="main-content">
+            <PageTransition>{children}</PageTransition>
+          </div>
           <Footer />
         </ThemeProvider>
       </body>
