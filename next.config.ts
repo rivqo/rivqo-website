@@ -2,17 +2,25 @@ import type { NextConfig } from "next";
 
 const isDev = process.env.NODE_ENV !== "production";
 
+const chatwootOrigins = [
+  "http://localhost:8081",
+  "http://127.0.0.1:8081",
+  "ws://localhost:8081",
+  "ws://127.0.0.1:8081",
+].join(" ");
+
 const contentSecurityPolicy = [
   "default-src 'self'",
   "base-uri 'self'",
   "form-action 'self'",
   "frame-ancestors 'none'",
   "object-src 'none'",
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://static.cloudflareinsights.com`,
+  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://static.cloudflareinsights.com ${chatwootOrigins}`,
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob:",
+  `img-src 'self' data: blob: ${chatwootOrigins}`,
   "font-src 'self' data:",
-  "connect-src 'self' https://cloudflareinsights.com https://static.cloudflareinsights.com",
+  `connect-src 'self' https://cloudflareinsights.com https://static.cloudflareinsights.com ${chatwootOrigins}`,
+  `frame-src ${chatwootOrigins}`,
   "worker-src 'self' blob:",
 ].join("; ");
 

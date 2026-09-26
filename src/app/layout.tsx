@@ -5,6 +5,7 @@ import { BackToTop } from "@/components/layout/back-to-top";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { AnalyticsProvider } from "@/components/analytics/analytics-provider";
+import { ChatwootWidget } from "@/components/analytics/chatwoot-widget";
 import { CloudflareAnalytics } from "@/components/analytics/cloudflare-analytics";
 import { MotionProvider } from "@/components/motion/motion-provider";
 import { ScrollProgress } from "@/components/motion/scroll-progress";
@@ -95,6 +96,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <JsonLd data={organizationJsonLd()} />
         <JsonLd data={websiteJsonLd()} />
         <CloudflareAnalytics />
+        <ChatwootWidget />
         <MotionProvider>
           <AnalyticsProvider>
             <SmoothScroll>
