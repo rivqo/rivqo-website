@@ -10,7 +10,10 @@ export function SiteFooter() {
   const logo = getConfirmedImage("brand-logo");
 
   return (
-    <footer className="border-t border-border">
+    <footer
+      className="border-t border-border"
+      style={{ viewTransitionName: "site-footer" }}
+    >
       <Container className="grid gap-10 py-12 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
         <div>
           {logo ? (

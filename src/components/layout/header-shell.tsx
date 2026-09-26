@@ -19,6 +19,7 @@ export function HeaderShell({ children }: { children: React.ReactNode }) {
   return (
     <header
       data-scrolled={scrolled}
+      style={{ viewTransitionName: "site-header" }}
       className={cn(
         "sticky top-0 z-40 border-b transition-[background-color,border-color,box-shadow] duration-400",
         scrolled

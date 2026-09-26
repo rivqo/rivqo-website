@@ -6,6 +6,8 @@ export const motionTokens = {
     slow: 0.64,
     entrance: 0.56,
     shortEntrance: 0.32,
+    pageExit: 0.22,
+    pageEnter: 0.42,
   },
   stagger: {
     tight: 0.04,

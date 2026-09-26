@@ -17,7 +17,7 @@ export function ScrollProgress() {
     <motion.div
       aria-hidden="true"
       className="pointer-events-none fixed top-0 right-0 left-0 z-50 h-[2px] origin-left bg-primary"
-      style={{ scaleX }}
+      style={{ scaleX, viewTransitionName: "scroll-progress" }}
     />
   );
 }
