@@ -7,6 +7,8 @@ const chatwootOrigins = [
   "http://127.0.0.1:8081",
   "ws://localhost:8081",
   "ws://127.0.0.1:8081",
+  "https://chat.rivqo.com",
+  "wss://chat.rivqo.com",
 ].join(" ");
 
 const contentSecurityPolicy = [
